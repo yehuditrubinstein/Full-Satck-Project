@@ -564,11 +564,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentDAL\\DocumentDALImpl.csproj",
+      "projectUniqueName": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentDAL\\DocumentDALImpl.csproj",
       "projectName": "DocumentDALImpl",
-      "projectPath": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentDAL\\DocumentDALImpl.csproj",
+      "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentDAL\\DocumentDALImpl.csproj",
       "packagesPath": "C:\\Users\\מוזסון\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentDAL\\obj\\",
+      "outputPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentDAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -588,11 +588,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentContracts\\DocumentContracts.csproj": {
-              "projectPath": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentContracts\\DocumentContracts.csproj"
+            "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj": {
+              "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj"
             },
-            "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentSQLDALImpl\\DocumentSQLDALImpl.csproj": {
-              "projectPath": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentSQLDALImpl\\DocumentSQLDALImpl.csproj"
+            "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentSQLDALImpl\\DocumentSQLDALImpl.csproj": {
+              "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentSQLDALImpl\\DocumentSQLDALImpl.csproj"
             }
           }
         }

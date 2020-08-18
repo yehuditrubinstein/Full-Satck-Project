@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+9gfpYO0n6CUve2UVK5I+fkpoVBVXBd10r/pe8+hcbOVp3vzwn6G5PUZlQblkmZg353G09xcrwICv9J5ih8gnw==",
+  "dgSpecHash": "2QA5UuhYsULMlJJGgtHZ2i5SUnI7stbRPCDXBw3XRgoawz3USDaevXi28TjktQRdErwbZ/bn9lm67CVpSwQljw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentSQLDALImpl\\DocumentSQLDALImpl.csproj",
+  "projectFilePath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentSQLDALImpl\\DocumentSQLDALImpl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\מוזסון\\.nuget\\packages\\contracts\\1.0.5\\contracts.1.0.5.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\infradalcontracts\\1.0.0\\infradalcontracts.1.0.0.nupkg.sha512",

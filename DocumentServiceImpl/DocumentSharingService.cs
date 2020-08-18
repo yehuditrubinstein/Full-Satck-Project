@@ -40,6 +40,12 @@ namespace DocumentServiceImpl
             }
 
         }
+
+        public Response RemoveSharing(DocumentSharingRequest request)
+        {
+            throw new NotImplementedException();
+        }
+
         private bool SharingAvailable(DocumentSharingRequest req)
         {
             //

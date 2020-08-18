@@ -34,3 +34,10 @@ C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentsAPIProject\bin\D
 C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentsAPIProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentsAPIProject\obj\Debug\netcoreapp3.1\DocumentsAPIProject.csproj.CoreCompileInputs.cache
 C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentsAPIProject\obj\Debug\netcoreapp3.1\DocumentsAPIProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\obj\Debug\netcoreapp3.1\DocumentsAPIProject.csprojAssemblyReference.cache
+C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\obj\Debug\netcoreapp3.1\DocumentsAPIProject.AssemblyInfoInputs.cache
+C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\obj\Debug\netcoreapp3.1\DocumentsAPIProject.AssemblyInfo.cs
+C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\obj\Debug\netcoreapp3.1\DocumentsAPIProject.csproj.CoreCompileInputs.cache
+C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\obj\Debug\netcoreapp3.1\DocumentsAPIProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\obj\Debug\netcoreapp3.1\DocumentsAPIProject.dll
+C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\obj\Debug\netcoreapp3.1\DocumentsAPIProject.pdb

@@ -5110,11 +5110,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\NUnitTestDAL\\NUnitTestDAL.csproj",
+      "projectUniqueName": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\NUnitTestDAL\\NUnitTestDAL.csproj",
       "projectName": "NUnitTestDAL",
-      "projectPath": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\NUnitTestDAL\\NUnitTestDAL.csproj",
+      "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\NUnitTestDAL\\NUnitTestDAL.csproj",
       "packagesPath": "C:\\Users\\מוזסון\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\NUnitTestDAL\\obj\\",
+      "outputPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\NUnitTestDAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5134,11 +5134,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentContracts\\DocumentContracts.csproj": {
-              "projectPath": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentContracts\\DocumentContracts.csproj"
+            "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj": {
+              "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj"
             },
-            "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentDAL\\DocumentDALImpl.csproj": {
-              "projectPath": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentDAL\\DocumentDALImpl.csproj"
+            "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentDAL\\DocumentDALImpl.csproj": {
+              "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentDAL\\DocumentDALImpl.csproj"
             }
           }
         }

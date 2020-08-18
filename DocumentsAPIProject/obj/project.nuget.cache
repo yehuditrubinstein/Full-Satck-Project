@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jzDuyXAemegrE2my3B5+6qu6NJp3n/j1WvFZdnIexnrSVZOhgUJ/hgEXlXujmNRYWk2uID2rWxy1AJB0jOdGKg==",
+  "dgSpecHash": "60TNalRs5/lwawHSjfBBr7acNgsH5g4BKTCgEQV1lSkE2A/CdqzvAR3wUNQ/llgEnJhKKu9puadMiCNiKnWF6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentsAPIProject\\DocumentsAPIProject.csproj",
+  "projectFilePath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentsAPIProject\\DocumentsAPIProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\מוזסון\\.nuget\\packages\\contracts\\1.0.5\\contracts.1.0.5.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\di\\1.0.5\\di.1.0.5.nupkg.sha512",

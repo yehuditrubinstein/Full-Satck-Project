@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentContracts\\DocumentContracts.csproj",
+      "projectUniqueName": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj",
       "projectName": "DocumentContracts",
-      "projectPath": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentContracts\\DocumentContracts.csproj",
+      "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj",
       "packagesPath": "C:\\Users\\מוזסון\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentContracts\\obj\\",
+      "outputPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

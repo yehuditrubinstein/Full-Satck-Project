@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "odhrnPsbUgi3L1Uz9Xb4uJpAf9XWDEt233JSAeaO7nGWDfacTtDwvdZ88xeaTppDOjx8nSvKO5H9ifNJYSC7mA==",
+  "dgSpecHash": "3g0DCZ25SRKZg1DoInMM/KmDCHNFTEF56CVFShUHY1Dsc2LS04DFV1+XRPhCI0Y1FTM9wUaCkvWU+Wei5Lb8BA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\NUnitTestDAL\\NUnitTestDAL.csproj",
+  "projectFilePath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\NUnitTestDAL\\NUnitTestDAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\מוזסון\\.nuget\\packages\\contracts\\1.0.5\\contracts.1.0.5.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\infradalcontracts\\1.0.0\\infradalcontracts.1.0.0.nupkg.sha512",

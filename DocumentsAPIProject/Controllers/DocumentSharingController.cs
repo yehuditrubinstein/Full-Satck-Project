@@ -15,7 +15,7 @@ namespace DocumentsAPIProject.Controllers
     [ApiController]
     public class DocumentSharingController : ControllerBase
     {
-         IDocumentSharingService _Service;
+        IDocumentSharingService _Service;
         public DocumentSharingController(IDocumentSharingService Sharingservice)
         {
             _Service = Sharingservice;
@@ -25,7 +25,10 @@ namespace DocumentsAPIProject.Controllers
         {
             return _Service.AddSharing(request);
         }
-       [HttpPost]
-       public    RemoveShare
+        [HttpPost]
+        public DocumentContracts.DTO.Response RemoveSharing([FromBody] DocumentSharingRequest request)
+        {
+            return _Service.RemoveSharing(request);
+        }
     }
 }

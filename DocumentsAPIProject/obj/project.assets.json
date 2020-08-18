@@ -4995,11 +4995,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentsAPIProject\\DocumentsAPIProject.csproj",
+      "projectUniqueName": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentsAPIProject\\DocumentsAPIProject.csproj",
       "projectName": "DocumentsAPIProject",
-      "projectPath": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentsAPIProject\\DocumentsAPIProject.csproj",
+      "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentsAPIProject\\DocumentsAPIProject.csproj",
       "packagesPath": "C:\\Users\\מוזסון\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentsAPIProject\\obj\\",
+      "outputPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentsAPIProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5019,8 +5019,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentContracts\\DocumentContracts.csproj": {
-              "projectPath": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentContracts\\DocumentContracts.csproj"
+            "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj": {
+              "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj"
             }
           }
         }

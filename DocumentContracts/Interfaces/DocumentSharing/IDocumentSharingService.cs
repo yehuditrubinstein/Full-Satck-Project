@@ -9,6 +9,6 @@ namespace DocumentContracts.Interfaces
     {
 
         Response AddSharing(DocumentSharingRequest request);
-       
+        Response RemoveSharing(DocumentSharingRequest request);
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QFvL7snXTTnBrrMslWrYYZHIlD4oZGxj4nBhlt/IArQT6A/nqNIn2nEAG1CbzoECaWyfFn5zjr2mb+BR+X3u7Q==",
+  "dgSpecHash": "NkCnmJPnCTJWNFQrj81Io/iC/4zps8IgDZ1Q+CIVpzL2A2NAMf88A+pG4g3mp9Qw5XWkdnY9LYSJrLwVCmHK7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentServiceImpl\\DocumentServiceImpl.csproj",
+  "projectFilePath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentServiceImpl\\DocumentServiceImpl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\מוזסון\\.nuget\\packages\\contracts\\1.0.5\\contracts.1.0.5.nupkg.sha512"
   ],
