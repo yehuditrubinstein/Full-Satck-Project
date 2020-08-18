@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DocumentServiceImpl/1.0.0": {
+        "dependencies": {
+          "Contracts": "1.0.5",
+          "DocumentContracts": "1.0.0"
+        },
+        "runtime": {
+          "DocumentServiceImpl.dll": {}
+        }
+      },
+      "Contracts/1.0.5": {
+        "runtime": {
+          "lib/netcoreapp3.1/Contracts.dll": {
+            "assemblyVersion": "1.0.5.0",
+            "fileVersion": "1.0.5.0"
+          }
+        }
+      },
+      "DocumentContracts/1.0.0": {
+        "runtime": {
+          "DocumentContracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DocumentServiceImpl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contracts/1.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NjPNi8PkydxINROk9PLgDsBwlPpuKfqpBlBo6pP111Cw1+8DiEhvxpSzvRdurIi2t5c3zmwyskubUpwnUXehsg==",
+      "path": "contracts/1.0.5",
+      "hashPath": "contracts.1.0.5.nupkg.sha512"
+    },
+    "DocumentContracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

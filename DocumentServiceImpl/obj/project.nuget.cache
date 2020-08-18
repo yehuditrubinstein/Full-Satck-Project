@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QFvL7snXTTnBrrMslWrYYZHIlD4oZGxj4nBhlt/IArQT6A/nqNIn2nEAG1CbzoECaWyfFn5zjr2mb+BR+X3u7Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\מוזסון\\source\\repos\\DocumentsAPIProject\\DocumentServiceImpl\\DocumentServiceImpl.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\מוזסון\\.nuget\\packages\\contracts\\1.0.5\\contracts.1.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

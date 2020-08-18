@@ -1,0 +1,11 @@
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentSQLDALImpl\obj\Debug\netcoreapp3.1\DocumentSQLDALImpl.csprojAssemblyReference.cache
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentSQLDALImpl\obj\Debug\netcoreapp3.1\DocumentSQLDALImpl.AssemblyInfoInputs.cache
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentSQLDALImpl\obj\Debug\netcoreapp3.1\DocumentSQLDALImpl.AssemblyInfo.cs
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentSQLDALImpl\bin\Debug\netcoreapp3.1\DocumentSQLDALImpl.deps.json
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentSQLDALImpl\bin\Debug\netcoreapp3.1\DocumentSQLDALImpl.dll
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentSQLDALImpl\bin\Debug\netcoreapp3.1\DocumentContracts.dll
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentSQLDALImpl\bin\Debug\netcoreapp3.1\DocumentContracts.pdb
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentSQLDALImpl\obj\Debug\netcoreapp3.1\DocumentSQLDALImpl.csproj.CopyComplete
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentSQLDALImpl\bin\Debug\netcoreapp3.1\DocumentSQLDALImpl.pdb
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentSQLDALImpl\obj\Debug\netcoreapp3.1\DocumentSQLDALImpl.dll
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentSQLDALImpl\obj\Debug\netcoreapp3.1\DocumentSQLDALImpl.pdb

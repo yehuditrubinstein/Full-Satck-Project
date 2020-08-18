@@ -1,0 +1,9 @@
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentContracts\bin\Debug\netcoreapp3.1\DocumentContracts.deps.json
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentContracts\bin\Debug\netcoreapp3.1\DocumentContracts.dll
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentContracts\bin\Debug\netcoreapp3.1\DocumentContracts.pdb
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentContracts\obj\Debug\netcoreapp3.1\DocumentContracts.AssemblyInfoInputs.cache
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentContracts\obj\Debug\netcoreapp3.1\DocumentContracts.AssemblyInfo.cs
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentContracts\obj\Debug\netcoreapp3.1\DocumentContracts.csproj.CoreCompileInputs.cache
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentContracts\obj\Debug\netcoreapp3.1\DocumentContracts.dll
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentContracts\obj\Debug\netcoreapp3.1\DocumentContracts.pdb
+C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentContracts\obj\Debug\netcoreapp3.1\DocumentContracts.csprojAssemblyReference.cache
