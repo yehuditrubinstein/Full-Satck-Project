@@ -1,0 +1,9 @@
+C:\Users\מוזסון\source\repos\Full-Satck-Project\ParameterConverterContracts\bin\Debug\netcoreapp3.1\ParameterConverterContracts.deps.json
+C:\Users\מוזסון\source\repos\Full-Satck-Project\ParameterConverterContracts\bin\Debug\netcoreapp3.1\ParameterConverterContracts.dll
+C:\Users\מוזסון\source\repos\Full-Satck-Project\ParameterConverterContracts\bin\Debug\netcoreapp3.1\ParameterConverterContracts.pdb
+C:\Users\מוזסון\source\repos\Full-Satck-Project\ParameterConverterContracts\obj\Debug\netcoreapp3.1\ParameterConverterContracts.AssemblyInfoInputs.cache
+C:\Users\מוזסון\source\repos\Full-Satck-Project\ParameterConverterContracts\obj\Debug\netcoreapp3.1\ParameterConverterContracts.AssemblyInfo.cs
+C:\Users\מוזסון\source\repos\Full-Satck-Project\ParameterConverterContracts\obj\Debug\netcoreapp3.1\ParameterConverterContracts.csproj.CoreCompileInputs.cache
+C:\Users\מוזסון\source\repos\Full-Satck-Project\ParameterConverterContracts\obj\Debug\netcoreapp3.1\ParameterConverterContracts.dll
+C:\Users\מוזסון\source\repos\Full-Satck-Project\ParameterConverterContracts\obj\Debug\netcoreapp3.1\ParameterConverterContracts.pdb
+C:\Users\מוזסון\source\repos\Full-Satck-Project\ParameterConverterContracts\obj\Debug\netcoreapp3.1\ParameterConverterContracts.csprojAssemblyReference.cache

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DocumentContracts.DTO.DocumentSharing
 {
-   public class DocumentSharingResponseRemoveOK:Response
+   public class DocumentSharingResponseRemoveOK: DocumentsharingResponse
     {
 
     }

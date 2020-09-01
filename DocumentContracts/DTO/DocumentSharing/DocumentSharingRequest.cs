@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DocumentContracts.DTO.DocumentSharing;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,7 +7,6 @@ namespace DocumentContracts.DTO
 {
    public class DocumentSharingRequest
     {
-        public Guid DocID { get; set; }
-        public string UserId { get; set; }
+        public SharingDTO sharingDTO { get; set; }
     }
 }

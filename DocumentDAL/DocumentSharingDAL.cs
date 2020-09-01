@@ -4,25 +4,65 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using Contracts;
+using InfraDALContracts;
+using DalParametersConverter;
+using DocumentContracts.DTO.DocumentSharing;
+using SQLServerInfraDAL;
 
 namespace DocumentSQLDALImpl
 {
     [Register(Policy.Transient, typeof(IDocumentSharingDAL))]
     public class DocumentSharingDAL : IDocumentSharingDAL
     {
-        private IDocumentSharingSQLDAL _DocumentSharingSQLDAL;
-        public DocumentSharingDAL(IDocumentSharingSQLDAL DocumentSharingSQLDAL)
+        private IInfraDal _SQLDAL;
+        DBParameterConverter _paramConverter;
+        public DocumentSharingDAL(IInfraDal SQLDAL)
         {
-            _DocumentSharingSQLDAL = DocumentSharingSQLDAL;
+            _SQLDAL = SQLDAL;
+            _paramConverter = new DBParameterConverter(_SQLDAL);
         }
-       
-        void IDocumentSharingDAL.AddSharing(DocumentSharingRequest request)
+        public DocumentsharingResponse AddSharing(DocumentSharingRequest request)
         {
-            //    if( כזה מסמך יש  כזה יוזר יש)
-              _DocumentSharingSQLDAL.AddSharing(request);
+            DocumentsharingResponse retval = default;
+            try
+            {
+                var con = _SQLDAL.Connect("Server=LAPTOP-B6F4SVRM;Database=DocumentProject;" + "Trusted_Connection=True;");
+                var parameters = _paramConverter.ConvertToParameters(request.sharingDTO);
+                var dataset = _SQLDAL.ExecSPQuery("CreateShare", con, parameters);
+              
+                if (dataset != null)
+                {
+                    retval = new DocumentSharingResponseAddOK();
+                }
+            }
+            catch (Exception e)
+            {
+                retval = new DocumentSharingResponseDontAdd();
+                //log
+            }
+            return retval;
+        }
+        public DocumentsharingResponse RemoveSharing(DocumentSharingRequest request)
+        {
+            DocumentsharingResponse retval = default;
 
-            
-           
+            try
+            {
+                var con = _SQLDAL.Connect("Server=LAPTOP-B6F4SVRM;Database=DocumentProject;" + "Trusted_Connection=True;");
+                var parameters = _paramConverter.ConvertToParameters(request.sharingDTO);
+                var dataset = _SQLDAL.ExecSPQuery("DeleteShare", con, parameters);
+                if (dataset != null)
+                {
+                    retval = new DocumentSharingResponseRemoveOK();
+                }
+            }
+            catch (Exception e)
+            {
+                retval = new DocumentSharingResponseDontRemove();
+            }
+            return retval;
         }
+
+
     }
 }

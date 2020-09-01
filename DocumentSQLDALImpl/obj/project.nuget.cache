@@ -1,18 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "2QA5UuhYsULMlJJGgtHZ2i5SUnI7stbRPCDXBw3XRgoawz3USDaevXi28TjktQRdErwbZ/bn9lm67CVpSwQljw==",
+  "dgSpecHash": "7+emEARPRWss6eNgyV1d7gbzxo0pMgXaL9OUFpJRY6zh8gskPdxj4nI/MEIH9nQb/b0X8/L8M9vgt0pSUzRWog==",
   "success": true,
   "projectFilePath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentSQLDALImpl\\DocumentSQLDALImpl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\מוזסון\\.nuget\\packages\\contracts\\1.0.5\\contracts.1.0.5.nupkg.sha512",
-    "C:\\Users\\מוזסון\\.nuget\\packages\\infradalcontracts\\1.0.0\\infradalcontracts.1.0.0.nupkg.sha512",
+    "C:\\Users\\מוזסון\\.nuget\\packages\\infradalcontracts\\1.0.2\\infradalcontracts.1.0.2.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\מוזסון\\.nuget\\packages\\sqlserverinfradal\\1.0.1\\sqlserverinfradal.1.0.1.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\system.data.sqlclient\\4.8.1\\system.data.sqlclient.4.8.1.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"

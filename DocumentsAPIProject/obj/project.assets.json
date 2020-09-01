@@ -25,7 +25,7 @@
           "lib/netcoreapp3.1/DI.dll": {}
         }
       },
-      "InfraDALContracts/1.0.0": {
+      "InfraDALContracts/1.0.2": {
         "type": "package",
         "dependencies": {
           "System.Data.SqlClient": "4.8.1"
@@ -219,19 +219,6 @@
             "assetType": "native",
             "rid": "win-x86"
           }
-        }
-      },
-      "SQLServerInfraDAL/1.0.1": {
-        "type": "package",
-        "dependencies": {
-          "InfraDALContracts": "1.0.0",
-          "System.Data.SqlClient": "4.8.1"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/SQLServerInfraDAL.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/SQLServerInfraDAL.dll": {}
         }
       },
       "System.AppContext/4.1.0": {
@@ -1405,11 +1392,24 @@
       "DocumentContracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ParameterConverterContracts": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/DocumentContracts.dll": {}
         },
         "runtime": {
           "bin/placeholder/DocumentContracts.dll": {}
+        }
+      },
+      "ParameterConverterContracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ParameterConverterContracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ParameterConverterContracts.dll": {}
         }
       }
     }
@@ -1437,13 +1437,13 @@
         "lib/netcoreapp3.1/DI.dll"
       ]
     },
-    "InfraDALContracts/1.0.0": {
-      "sha512": "uPc2GmU6E+OdqehyTC7p94aHI04iZG1mal3Zim38kR1ncBL82J6VCc1vZMov/lx3FUfBNcHCRMDoMvPJ5LvXBw==",
+    "InfraDALContracts/1.0.2": {
+      "sha512": "TtWLeD3g/+6JTyddBFGj84jhP846ID6HCvy0+Rr+RFdvr40AOBIMh5ABuh+mZkMvu98kFcfCgJBQzi0MLmZ+9Q==",
       "type": "package",
-      "path": "infradalcontracts/1.0.0",
+      "path": "infradalcontracts/1.0.2",
       "files": [
         ".nupkg.metadata",
-        "infradalcontracts.1.0.0.nupkg.sha512",
+        "infradalcontracts.1.0.2.nupkg.sha512",
         "infradalcontracts.nuspec",
         "lib/netcoreapp3.1/InfraDALContracts.dll"
       ]
@@ -1722,17 +1722,6 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
-      ]
-    },
-    "SQLServerInfraDAL/1.0.1": {
-      "sha512": "h+FgSGLnO/RPKVM6BodsfotH+p0+GtlkHx1Ju5XrChvDqiq4GtEea3Sb0gjxJ3bjDep+7UiiC0/2cyzg90GSFQ==",
-      "type": "package",
-      "path": "sqlserverinfradal/1.0.1",
-      "files": [
-        ".nupkg.metadata",
-        "lib/netcoreapp3.1/SQLServerInfraDAL.dll",
-        "sqlserverinfradal.1.0.1.nupkg.sha512",
-        "sqlserverinfradal.nuspec"
       ]
     },
     "System.AppContext/4.1.0": {
@@ -4978,14 +4967,19 @@
       "type": "project",
       "path": "../DocumentContracts/DocumentContracts.csproj",
       "msbuildProject": "../DocumentContracts/DocumentContracts.csproj"
+    },
+    "ParameterConverterContracts/1.0.0": {
+      "type": "project",
+      "path": "../ParameterConverterContracts/ParameterConverterContracts.csproj",
+      "msbuildProject": "../ParameterConverterContracts/ParameterConverterContracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "DI >= 1.0.5",
       "DocumentContracts >= 1.0.0",
-      "Microsoft.Extensions.DependencyInjection >= 3.1.7",
-      "SQLServerInfraDAL >= 1.0.1"
+      "InfraDALContracts >= 1.0.2",
+      "Microsoft.Extensions.DependencyInjection >= 3.1.7"
     ]
   },
   "packageFolders": {
@@ -5038,13 +5032,13 @@
             "target": "Package",
             "version": "[1.0.5, )"
           },
+          "InfraDALContracts": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
           "Microsoft.Extensions.DependencyInjection": {
             "target": "Package",
             "version": "[3.1.7, )"
-          },
-          "SQLServerInfraDAL": {
-            "target": "Package",
-            "version": "[1.0.1, )"
           }
         },
         "imports": [

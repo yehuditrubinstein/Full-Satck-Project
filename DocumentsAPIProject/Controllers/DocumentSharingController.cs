@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Contracts.DTO;
 using DocumentContracts.DTO;
+using DocumentContracts.DTO.DocumentSharing;
 using DocumentContracts.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -21,12 +22,12 @@ namespace DocumentsAPIProject.Controllers
             _Service = Sharingservice;
         }
         [HttpPost]
-        public DocumentContracts.DTO.Response AddSharing([FromBody] DocumentSharingRequest request)
+        public DocumentsharingResponse AddSharing([FromBody] DocumentSharingRequest request)
         {
             return _Service.AddSharing(request);
         }
         [HttpPost]
-        public DocumentContracts.DTO.Response RemoveSharing([FromBody] DocumentSharingRequest request)
+        public DocumentsharingResponse RemoveSharing([FromBody] DocumentSharingRequest request)
         {
             return _Service.RemoveSharing(request);
         }

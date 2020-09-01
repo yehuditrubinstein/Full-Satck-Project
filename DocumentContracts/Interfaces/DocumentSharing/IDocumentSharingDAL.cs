@@ -1,13 +1,11 @@
 ﻿using DocumentContracts.DTO;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using DocumentContracts.DTO.DocumentSharing;
 
 namespace DocumentContracts.Interfaces
 {
-   public interface IDocumentSharingDAL
+    public interface IDocumentSharingDAL
     {
-        void AddSharing(DocumentSharingRequest request);
-
+        DocumentsharingResponse AddSharing(DocumentSharingRequest request);
+        DocumentsharingResponse RemoveSharing(DocumentSharingRequest request);
     }
 }

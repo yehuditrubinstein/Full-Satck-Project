@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="Contracts" Version="1.0.5" />
-    <PackageReference Include="SQLServerInfraDAL" Version="1.0.1" />
+    <PackageReference Include="InfraDALContracts" Version="1.0.2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy $(TargetPath) C:\Users\מוזסון\source\repos\DocumentsAPIProject\DocumentsAPIProject\bin\Debug\netcoreapp3.1\dlls" />
+    <Exec Command="copy $(TargetPath) C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\bin\Debug\netcoreapp3.1\dlls" />
   </Target>
 
 </Project>

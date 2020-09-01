@@ -4,6 +4,72 @@
     "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentServiceImpl\\DocumentServiceImpl.csproj": {}
   },
   "projects": {
+    "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DalParametersConverter\\DalParametersConverter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DalParametersConverter\\DalParametersConverter.csproj",
+        "projectName": "DalParametersConverter",
+        "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DalParametersConverter\\DalParametersConverter.csproj",
+        "packagesPath": "C:\\Users\\מוזסון\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DalParametersConverter\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\מוזסון\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\tichnut\\dev\\pacakges": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\ParameterConverterContracts\\ParameterConverterContracts.csproj": {
+                "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\ParameterConverterContracts\\ParameterConverterContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "InfraDALContracts": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -30,7 +96,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\ParameterConverterContracts\\ParameterConverterContracts.csproj": {
+                "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\ParameterConverterContracts\\ParameterConverterContracts.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -41,6 +111,83 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentDAL\\DocumentDALImpl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentDAL\\DocumentDALImpl.csproj",
+        "projectName": "DocumentDALImpl",
+        "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentDAL\\DocumentDALImpl.csproj",
+        "packagesPath": "C:\\Users\\מוזסון\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\מוזסון\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\tichnut\\dev\\pacakges": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DalParametersConverter\\DalParametersConverter.csproj": {
+                "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DalParametersConverter\\DalParametersConverter.csproj"
+              },
+              "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj": {
+                "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Contracts": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "InfraDALContracts": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "SQLServerInfraDAL": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -89,6 +236,9 @@
             "projectReferences": {
               "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj": {
                 "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj"
+              },
+              "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentDAL\\DocumentDALImpl.csproj": {
+                "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentDAL\\DocumentDALImpl.csproj"
               }
             }
           }
@@ -107,6 +257,62 @@
               "version": "[1.0.5, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\ParameterConverterContracts\\ParameterConverterContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\ParameterConverterContracts\\ParameterConverterContracts.csproj",
+        "projectName": "ParameterConverterContracts",
+        "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\ParameterConverterContracts\\ParameterConverterContracts.csproj",
+        "packagesPath": "C:\\Users\\מוזסון\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\ParameterConverterContracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\מוזסון\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\tichnut\\dev\\pacakges": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",

@@ -11,7 +11,7 @@
           "lib/netcoreapp3.1/Contracts.dll": {}
         }
       },
-      "InfraDALContracts/1.0.0": {
+      "InfraDALContracts/1.0.2": {
         "type": "package",
         "dependencies": {
           "System.Data.SqlClient": "4.8.1"
@@ -524,10 +524,11 @@
           }
         }
       },
-      "SQLServerInfraDAL/1.0.1": {
+      "SQLServerInfraDAL/1.0.3": {
         "type": "package",
         "dependencies": {
-          "InfraDALContracts": "1.0.0",
+          "Contracts": "1.0.5",
+          "InfraDALContracts": "1.0.2",
           "System.Data.SqlClient": "4.8.1"
         },
         "compile": {
@@ -1354,9 +1355,26 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "DalParametersConverter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "InfraDALContracts": "1.0.2",
+          "ParameterConverterContracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DalParametersConverter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DalParametersConverter.dll": {}
+        }
+      },
       "DocumentContracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ParameterConverterContracts": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/DocumentContracts.dll": {}
         },
@@ -1369,8 +1387,10 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Contracts": "1.0.5",
+          "DalParametersConverter": "1.0.0",
           "DocumentContracts": "1.0.0",
-          "DocumentSQLDALImpl": "1.0.0"
+          "InfraDALContracts": "1.0.2",
+          "SQLServerInfraDAL": "1.0.3"
         },
         "compile": {
           "bin/placeholder/DocumentDALImpl.dll": {}
@@ -1379,19 +1399,14 @@
           "bin/placeholder/DocumentDALImpl.dll": {}
         }
       },
-      "DocumentSQLDALImpl/1.0.0": {
+      "ParameterConverterContracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Contracts": "1.0.5",
-          "DocumentContracts": "1.0.0",
-          "SQLServerInfraDAL": "1.0.1"
-        },
         "compile": {
-          "bin/placeholder/DocumentSQLDALImpl.dll": {}
+          "bin/placeholder/ParameterConverterContracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DocumentSQLDALImpl.dll": {}
+          "bin/placeholder/ParameterConverterContracts.dll": {}
         }
       }
     }
@@ -1408,13 +1423,13 @@
         "lib/netcoreapp3.1/Contracts.dll"
       ]
     },
-    "InfraDALContracts/1.0.0": {
-      "sha512": "uPc2GmU6E+OdqehyTC7p94aHI04iZG1mal3Zim38kR1ncBL82J6VCc1vZMov/lx3FUfBNcHCRMDoMvPJ5LvXBw==",
+    "InfraDALContracts/1.0.2": {
+      "sha512": "TtWLeD3g/+6JTyddBFGj84jhP846ID6HCvy0+Rr+RFdvr40AOBIMh5ABuh+mZkMvu98kFcfCgJBQzi0MLmZ+9Q==",
       "type": "package",
-      "path": "infradalcontracts/1.0.0",
+      "path": "infradalcontracts/1.0.2",
       "files": [
         ".nupkg.metadata",
-        "infradalcontracts.1.0.0.nupkg.sha512",
+        "infradalcontracts.1.0.2.nupkg.sha512",
         "infradalcontracts.nuspec",
         "lib/netcoreapp3.1/InfraDALContracts.dll"
       ]
@@ -2193,14 +2208,14 @@
         "version.txt"
       ]
     },
-    "SQLServerInfraDAL/1.0.1": {
-      "sha512": "h+FgSGLnO/RPKVM6BodsfotH+p0+GtlkHx1Ju5XrChvDqiq4GtEea3Sb0gjxJ3bjDep+7UiiC0/2cyzg90GSFQ==",
+    "SQLServerInfraDAL/1.0.3": {
+      "sha512": "KuJS0rZTSMNzl74LhHdzufyBejn3DpJSxVLsJ3zGk8CKpb9zumR2g8ZvMQM8Qfar7Jrid3mNghyiEULV8vD8UQ==",
       "type": "package",
-      "path": "sqlserverinfradal/1.0.1",
+      "path": "sqlserverinfradal/1.0.3",
       "files": [
         ".nupkg.metadata",
         "lib/netcoreapp3.1/SQLServerInfraDAL.dll",
-        "sqlserverinfradal.1.0.1.nupkg.sha512",
+        "sqlserverinfradal.1.0.3.nupkg.sha512",
         "sqlserverinfradal.nuspec"
       ]
     },
@@ -5078,6 +5093,11 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
+    "DalParametersConverter/1.0.0": {
+      "type": "project",
+      "path": "../DalParametersConverter/DalParametersConverter.csproj",
+      "msbuildProject": "../DalParametersConverter/DalParametersConverter.csproj"
+    },
     "DocumentContracts/1.0.0": {
       "type": "project",
       "path": "../DocumentContracts/DocumentContracts.csproj",
@@ -5088,16 +5108,17 @@
       "path": "../DocumentDAL/DocumentDALImpl.csproj",
       "msbuildProject": "../DocumentDAL/DocumentDALImpl.csproj"
     },
-    "DocumentSQLDALImpl/1.0.0": {
+    "ParameterConverterContracts/1.0.0": {
       "type": "project",
-      "path": "../DocumentSQLDALImpl/DocumentSQLDALImpl.csproj",
-      "msbuildProject": "../DocumentSQLDALImpl/DocumentSQLDALImpl.csproj"
+      "path": "../ParameterConverterContracts/ParameterConverterContracts.csproj",
+      "msbuildProject": "../ParameterConverterContracts/ParameterConverterContracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "DocumentContracts >= 1.0.0",
       "DocumentDALImpl >= 1.0.0",
+      "InfraDALContracts >= 1.0.2",
       "Microsoft.NET.Test.Sdk >= 16.4.0",
       "NUnit3TestAdapter >= 3.15.1",
       "nunit >= 3.12.0"
@@ -5152,6 +5173,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "InfraDALContracts": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[16.4.0, )"

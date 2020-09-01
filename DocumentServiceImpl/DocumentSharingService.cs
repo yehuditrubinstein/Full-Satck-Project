@@ -1,5 +1,6 @@
 ﻿using Contracts;
 using DocumentContracts.DTO;
+using DocumentContracts.DTO.DocumentSharing;
 using DocumentContracts.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -8,20 +9,20 @@ using System.Text;
 namespace DocumentServiceImpl
 {
     [Register(Policy.Transient, typeof(IDocumentSharingService))]
-   public class DocumentSharingService : IDocumentSharingService
+    public class DocumentSharingService : IDocumentSharingService
     {
 
-        IDocumentSharingSQLDAL _dal;
-        public DocumentSharingService(IDocumentSharingSQLDAL dal)
+        IDocumentSharingDAL _dal;
+        public DocumentSharingService(IDocumentSharingDAL dal)
         {
             _dal = dal;
         }
-        public Response AddSharing(DocumentSharingRequest request)
+        public DocumentsharingResponse AddSharing(DocumentSharingRequest request)
         {
-
+            DocumentsharingResponse retval = default;
             try
             {
-                Response retval = null;
+
                 if (SharingAvailable(request))
                 {
                     _dal.AddSharing(request);
@@ -29,25 +30,38 @@ namespace DocumentServiceImpl
                 }
                 else
                 {
-                    retval = new ResponseError();
+                    retval = new DocumentSharingResponseDontAdd();
                 }
-                return retval;
+
             }
             catch (Exception e)
             {
-                
-                throw;
+              //  Console.log(e)
+                retval = new DocumentSharingResponseDontAdd();
             }
-
+            return retval;
         }
 
-        public Response RemoveSharing(DocumentSharingRequest request)
+        public DocumentsharingResponse RemoveSharing(DocumentSharingRequest request)
         {
-            throw new NotImplementedException();
+            DocumentsharingResponse retval = default;
+
+            try
+            {
+                retval = _dal.RemoveSharing(request);
+
+            }
+            catch (Exception e)
+            {
+                retval = new DocumentSharingResponseDontRemove();
+                throw;
+            }
+            return retval;
         }
 
         private bool SharingAvailable(DocumentSharingRequest req)
         {
+            //אם יש יוזר אם יש דוקיומנט
             //
             ///  לבנתיים
             //

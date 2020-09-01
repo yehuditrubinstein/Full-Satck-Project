@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "ParameterConverterContracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ParameterConverterContracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ParameterConverterContracts.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ParameterConverterContracts/1.0.0": {
+      "type": "project",
+      "path": "../ParameterConverterContracts/ParameterConverterContracts.csproj",
+      "msbuildProject": "../ParameterConverterContracts/ParameterConverterContracts.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "ParameterConverterContracts >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\מוזסון\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\ParameterConverterContracts\\ParameterConverterContracts.csproj": {
+              "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\ParameterConverterContracts\\ParameterConverterContracts.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

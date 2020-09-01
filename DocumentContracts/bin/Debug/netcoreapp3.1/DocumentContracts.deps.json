@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "DocumentContracts/1.0.0": {
+        "dependencies": {
+          "ParameterConverterContracts": "1.0.0"
+        },
         "runtime": {
           "DocumentContracts.dll": {}
+        }
+      },
+      "ParameterConverterContracts/1.0.0": {
+        "runtime": {
+          "ParameterConverterContracts.dll": {}
         }
       }
     }
   },
   "libraries": {
     "DocumentContracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ParameterConverterContracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

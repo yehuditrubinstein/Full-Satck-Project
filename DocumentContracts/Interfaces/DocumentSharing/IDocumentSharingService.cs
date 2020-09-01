@@ -1,4 +1,5 @@
 ﻿using DocumentContracts.DTO;
+using DocumentContracts.DTO.DocumentSharing;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,7 +9,7 @@ namespace DocumentContracts.Interfaces
     public interface IDocumentSharingService
     {
 
-        Response AddSharing(DocumentSharingRequest request);
-        Response RemoveSharing(DocumentSharingRequest request);
+        DocumentsharingResponse AddSharing(DocumentSharingRequest request);
+        DocumentsharingResponse RemoveSharing(DocumentSharingRequest request);
     }
 }
