@@ -962,13 +962,13 @@
           }
         }
       },
-      "DalParametersConverter/1.0.0": {
+      "DalParametersConverterExpression/1.0.0": {
         "dependencies": {
           "InfraDALContracts": "1.0.2",
           "ParameterConverterContracts": "1.0.0"
         },
         "runtime": {
-          "DalParametersConverter.dll": {}
+          "DalParametersConverterExpression.dll": {}
         }
       },
       "DocumentContracts/1.0.0": {
@@ -982,7 +982,7 @@
       "DocumentDALImpl/1.0.0": {
         "dependencies": {
           "Contracts": "1.0.5",
-          "DalParametersConverter": "1.0.0",
+          "DalParametersConverterExpression": "1.0.0",
           "DocumentContracts": "1.0.0",
           "InfraDALContracts": "1.0.2",
           "SQLServerInfraDAL": "1.0.3"
@@ -1515,7 +1515,7 @@
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
-    "DalParametersConverter/1.0.0": {
+    "DalParametersConverterExpression/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

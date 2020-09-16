@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using DI;
+using InfraDALContracts;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -12,6 +13,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using SQLServerInfraDAL;
 
 namespace DocumentsAPIProject
 {
@@ -25,8 +27,10 @@ namespace DocumentsAPIProject
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public void ConfigureServices(IServiceCollection services)   
         {
+
+            services.AddSingleton(typeof(IInfraDal),typeof(SQLDAL));
             var path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "dlls");
             var resolver = new Resolver(path, services);
           

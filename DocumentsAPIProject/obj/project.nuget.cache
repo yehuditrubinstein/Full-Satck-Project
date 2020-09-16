@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4gZ/XNMTSyy1jNBt8R+s2YLEY3GrYMxIHrY2f1T2ix6ELB2EFlFr0rjZsL2t3GXnsOsy+tRD1Wl4Sx/P0qQ1aw==",
+  "dgSpecHash": "DBdFKMLPjeYn08v+s3jDetFutqoJkqLYgPLHO7tz2r6xq7GJ8CRHG7m6QWtz2ixrsjncGCN+RZLeRISVNVRSJw==",
   "success": true,
   "projectFilePath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentsAPIProject\\DocumentsAPIProject.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\מוזסון\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\מוזסון\\.nuget\\packages\\sqlserverinfradal\\1.0.3\\sqlserverinfradal.1.0.3.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\system.collections.concurrent\\4.0.12\\system.collections.concurrent.4.0.12.nupkg.sha512",

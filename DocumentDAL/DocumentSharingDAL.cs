@@ -5,9 +5,10 @@ using System.Collections.Generic;
 using System.Text;
 using Contracts;
 using InfraDALContracts;
-using DalParametersConverter;
 using DocumentContracts.DTO.DocumentSharing;
 using SQLServerInfraDAL;
+using DalParametersConverter;
+using DalParametersConverterExpression;
 
 namespace DocumentSQLDALImpl
 {

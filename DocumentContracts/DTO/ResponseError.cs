@@ -7,5 +7,6 @@ namespace DocumentContracts.DTO
 {
    public class ResponseError:Response
     {
+        public string message { get; set; }
     }
 }

@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP3_1"
     ],
-    "languageVersion": "",
+    "languageVersion": "8.0",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -28,6 +28,7 @@
           "DocumentContracts": "1.0.0",
           "InfraDALContracts": "1.0.2",
           "Microsoft.Extensions.DependencyInjection": "3.1.7",
+          "SQLServerInfraDAL": "1.0.3",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -486,6 +487,22 @@
             "assetType": "native",
             "fileVersion": "4.6.25512.1"
           }
+        }
+      },
+      "SQLServerInfraDAL/1.0.3": {
+        "dependencies": {
+          "Contracts": "1.0.5",
+          "InfraDALContracts": "1.0.2",
+          "System.Data.SqlClient": "4.8.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/SQLServerInfraDAL.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/SQLServerInfraDAL.dll": {}
         }
       },
       "System.AppContext/4.1.0": {
@@ -2997,6 +3014,13 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "SQLServerInfraDAL/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KuJS0rZTSMNzl74LhHdzufyBejn3DpJSxVLsJ3zGk8CKpb9zumR2g8ZvMQM8Qfar7Jrid3mNghyiEULV8vD8UQ==",
+      "path": "sqlserverinfradal/1.0.3",
+      "hashPath": "sqlserverinfradal.1.0.3.nupkg.sha512"
     },
     "System.AppContext/4.1.0": {
       "type": "package",
