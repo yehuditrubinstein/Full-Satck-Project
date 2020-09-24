@@ -1,6 +1,7 @@
 ﻿using DocumentContracts.DTO.Document;
 using DocumentContracts.Interfaces;
 using DocumentDALImpl;
+using DocumentSQLDALImpl;
 using NUnit.Framework;
 using SQLServerInfraDAL;
 using System;
@@ -16,7 +17,7 @@ namespace NUnitTestDAL
         [SetUp]
         public void Setup()
         {
-            _DocumentDAL = new DocumentDAL(new SQLDAL());
+            _DocumentDAL = new DocumentDAL(new SQLDAL(),new DocumentSharingDAL(new SQLDAL()));
         }
         [Test]
         public void AddDocument()

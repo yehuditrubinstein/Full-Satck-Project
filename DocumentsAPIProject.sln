@@ -23,9 +23,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ParameterConverter", "Param
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParameterConverterContracts", "ParameterConverterContracts\ParameterConverterContracts.csproj", "{6032BEE7-A698-48A1-B27F-5A841C200F35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DalParametersConverterExpression", "DalParametersConverterExpression\DalParametersConverterExpression.csproj", "{9B21BD0F-66C1-4EA2-9D65-BD17F5EB4B4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DalParametersConverterExpression", "DalParametersConverterExpression\DalParametersConverterExpression.csproj", "{9B21BD0F-66C1-4EA2-9D65-BD17F5EB4B4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestBLL", "NUnitTestBLL\NUnitTestBLL.csproj", "{1CF30183-7A0B-4500-B3B2-72EE5EA70DC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitTestBLL", "NUnitTestBLL\NUnitTestBLL.csproj", "{1CF30183-7A0B-4500-B3B2-72EE5EA70DC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessangerContracts", "MessangerContracts\MessangerContracts.csproj", "{C5B8BDA2-19F3-4E33-90A3-2515FEF6D029}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +67,10 @@ Global
 		{1CF30183-7A0B-4500-B3B2-72EE5EA70DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CF30183-7A0B-4500-B3B2-72EE5EA70DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CF30183-7A0B-4500-B3B2-72EE5EA70DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5B8BDA2-19F3-4E33-90A3-2515FEF6D029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B8BDA2-19F3-4E33-90A3-2515FEF6D029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B8BDA2-19F3-4E33-90A3-2515FEF6D029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B8BDA2-19F3-4E33-90A3-2515FEF6D029}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{6032BEE7-A698-48A1-B27F-5A841C200F35} = {4278F81B-9D86-47A3-A824-8DA3BBB48209}
 		{9B21BD0F-66C1-4EA2-9D65-BD17F5EB4B4D} = {4278F81B-9D86-47A3-A824-8DA3BBB48209}
 		{1CF30183-7A0B-4500-B3B2-72EE5EA70DC4} = {BC625AD1-A270-40BD-827C-BEAF0BB171D5}
+		{C5B8BDA2-19F3-4E33-90A3-2515FEF6D029} = {E4DF36C4-8BFD-4135-9CA7-8B114E3E4E0C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BCF8FD75-AD2F-4629-B38A-7AF51DFCCDBD}

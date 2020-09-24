@@ -14,11 +14,13 @@ namespace DocumentDALImpl
     [Register(Policy.Transient, typeof(IDocumentDAL))]
     public class DocumentDAL : IDocumentDAL
     {
+        private IDocumentSharingDAL _DocumentSharingDAL;
         private IInfraDal _SQLDAL;
         DBParameterConverter _paramConverter;
         private IDBConnection con;
-        public DocumentDAL(IInfraDal SQLDAL)
+        public DocumentDAL(IInfraDal SQLDAL, IDocumentSharingDAL DocumentSharingDAL)
         {
+            _DocumentSharingDAL = DocumentSharingDAL;
             _SQLDAL = SQLDAL;
             _paramConverter = new DBParameterConverter(_SQLDAL);
             con = _SQLDAL.Connect("Server=LAPTOP-B6F4SVRM;Database=DocumentProject;" + "Trusted_Connection=True;");
@@ -62,6 +64,7 @@ namespace DocumentDALImpl
                     };
                     retval.documentDTO.Add(new DocumentDTO()
                     {
+                        DocID = dataset.Tables[0].Rows[0].Field<Guid>("DocID"),
                         DocName = dataset.Tables[0].Rows[0].Field<string>("DocName"),
                         ImageURL = dataset.Tables[0].Rows[0].Field<string>("ImageURL"),
                         UserID = dataset.Tables[0].Rows[0].Field<string>("UserId")
@@ -92,13 +95,25 @@ namespace DocumentDALImpl
                         documentDTO = new List<DocumentDTO>()
 
                     };
-                    var empList = dataset.Tables[0].AsEnumerable().Select(dataRow => new DocumentDTO
+                    var docList = dataset.Tables[0].AsEnumerable().Select(dataRow => new DocumentDTO
                     {
                         DocName = dataRow.Field<string>("DocName"),
                         ImageURL = dataRow.Field<string>("ImageURL"),
-                        UserID = dataRow.Field<string>("UserID")
-                    }).ToList<DocumentDTO>();
-                    retval.documentDTO = empList;
+                        UserID = dataRow.Field<string>("UserID"),
+                        DocID = dataRow.Field<Guid>("DocID")
+                    }).ToList();
+                    retval.documentDTO = docList;
+                    var sharing = _DocumentSharingDAL.GetShareForUser(userID);
+                    List<DocumentDTO> sharedDocs = new List<DocumentDTO>();
+                    if (sharing!=null&&sharing.DocumentSharingDTO.Count!=0)
+                    {
+                        foreach (var item in sharing.DocumentSharingDTO)
+                        {
+                            var doc = GetDocument(item.DocID);
+                            sharedDocs.Add(doc.documentDTO[0]);
+                        }
+                        retval.documentDTO.AddRange(sharedDocs);
+                    }
 
                 }
                 else
@@ -108,7 +123,7 @@ namespace DocumentDALImpl
             }
             catch (Exception e)
             {
-              
+
                 //log
             }
 

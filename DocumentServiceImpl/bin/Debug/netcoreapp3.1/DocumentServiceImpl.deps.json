@@ -10,7 +10,9 @@
         "dependencies": {
           "Contracts": "1.0.5",
           "DocumentContracts": "1.0.0",
-          "DocumentDALImpl": "1.0.0"
+          "DocumentDALImpl": "1.0.0",
+          "MessangerContracts": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.8"
         },
         "runtime": {
           "DocumentServiceImpl.dll": {}
@@ -32,6 +34,14 @@
           "lib/netcoreapp3.1/InfraDALContracts.dll": {
             "assemblyVersion": "1.0.2.0",
             "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.8": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "3.1.8.0",
+            "fileVersion": "3.100.820.42004"
           }
         }
       },
@@ -152,6 +162,14 @@
           "DocumentDALImpl.dll": {}
         }
       },
+      "MessangerContracts/1.0.0": {
+        "dependencies": {
+          "DocumentContracts": "1.0.0"
+        },
+        "runtime": {
+          "MessangerContracts.dll": {}
+        }
+      },
       "ParameterConverterContracts/1.0.0": {
         "runtime": {
           "ParameterConverterContracts.dll": {}
@@ -178,6 +196,13 @@
       "sha512": "sha512-TtWLeD3g/+6JTyddBFGj84jhP846ID6HCvy0+Rr+RFdvr40AOBIMh5ABuh+mZkMvu98kFcfCgJBQzi0MLmZ+9Q==",
       "path": "infradalcontracts/1.0.2",
       "hashPath": "infradalcontracts.1.0.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LxQPR/KE4P9nx304VcFipWPcW8ZOZOGHuiYlG0ncAQJItogDzR9nyYUNvziLObx2MfX2Z9iCTdAqEtoImaQOYg==",
+      "path": "microsoft.extensions.logging.abstractions/3.1.8",
+      "hashPath": "microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",
@@ -260,6 +285,11 @@
       "sha512": ""
     },
     "DocumentDALImpl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MessangerContracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

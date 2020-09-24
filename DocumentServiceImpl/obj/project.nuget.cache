@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "lsMg/o2CF2gw/0n8E/6cuyEe4aROnav0UHkdJmCf7FAzxl/meVnKTsSAydXd9a/Xdq+aRaw1DUC5t34+epVWEg==",
+  "dgSpecHash": "K5QIwszzfqvgZ3eHCxJv5IAEmGxb2lyALPoTLgljMhenVy1a8BsLsPuLORDmgTiQM6+uWZ8b1dgwt9uFJselXA==",
   "success": true,
   "projectFilePath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentServiceImpl\\DocumentServiceImpl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\מוזסון\\.nuget\\packages\\contracts\\1.0.5\\contracts.1.0.5.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\infradalcontracts\\1.0.2\\infradalcontracts.1.0.2.nupkg.sha512",
+    "C:\\Users\\מוזסון\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.8\\microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

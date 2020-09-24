@@ -10,7 +10,7 @@ namespace DocumentContracts.Interfaces.Markers
     {
         MarkerRsponse AddMarker(MarkerRequestAdd request);
         MarkerRsponse RemoveMarker(MarkerRequestRemove request);
-
+        MarkerRsponse GetMarkers(RequestGetMarkers request);
 
     }
 }

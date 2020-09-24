@@ -16,9 +16,11 @@ C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentServiceImpl\bin\De
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentServiceImpl\bin\Debug\netcoreapp3.1\DalParametersConverterExpression.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentServiceImpl\bin\Debug\netcoreapp3.1\DocumentContracts.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentServiceImpl\bin\Debug\netcoreapp3.1\DocumentDALImpl.dll
+C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentServiceImpl\bin\Debug\netcoreapp3.1\MessangerContracts.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentServiceImpl\bin\Debug\netcoreapp3.1\ParameterConverterContracts.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentServiceImpl\bin\Debug\netcoreapp3.1\DocumentContracts.pdb
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentServiceImpl\bin\Debug\netcoreapp3.1\DocumentDALImpl.pdb
+C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentServiceImpl\bin\Debug\netcoreapp3.1\MessangerContracts.pdb
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentServiceImpl\bin\Debug\netcoreapp3.1\DalParametersConverterExpression.pdb
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentServiceImpl\bin\Debug\netcoreapp3.1\ParameterConverterContracts.pdb
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentServiceImpl\obj\Debug\netcoreapp3.1\DocumentServiceImpl.csprojAssemblyReference.cache

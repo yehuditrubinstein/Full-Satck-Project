@@ -49,6 +49,7 @@ C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\bin\De
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\bin\Debug\netcoreapp3.1\log4net.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\bin\Debug\netcoreapp3.1\SQLServerInfraDAL.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
@@ -57,8 +58,10 @@ C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\bin\De
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\bin\Debug\netcoreapp3.1\DocumentContracts.dll
+C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\bin\Debug\netcoreapp3.1\MessangerContracts.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\bin\Debug\netcoreapp3.1\ParameterConverterContracts.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\bin\Debug\netcoreapp3.1\DocumentContracts.pdb
+C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\bin\Debug\netcoreapp3.1\MessangerContracts.pdb
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\bin\Debug\netcoreapp3.1\ParameterConverterContracts.pdb
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\obj\Debug\netcoreapp3.1\DocumentsAPIProject.csprojAssemblyReference.cache
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentsAPIProject\obj\Debug\netcoreapp3.1\DocumentsAPIProject.AssemblyInfoInputs.cache

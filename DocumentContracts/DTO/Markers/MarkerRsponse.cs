@@ -6,5 +6,6 @@ namespace DocumentContracts.DTO.Markers
 {
     public class MarkerRsponse : Response
     {
+        public List<MarkerDTO> Markers { get; set; }
     }
 }

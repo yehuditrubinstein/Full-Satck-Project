@@ -23,6 +23,15 @@
           "lib/netcoreapp3.1/InfraDALContracts.dll": {}
         }
       },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.8": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/3.1.0": {
         "type": "package",
         "compile": {
@@ -210,6 +219,19 @@
           "bin/placeholder/DocumentDALImpl.dll": {}
         }
       },
+      "MessangerContracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DocumentContracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MessangerContracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MessangerContracts.dll": {}
+        }
+      },
       "ParameterConverterContracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -243,6 +265,20 @@
         "infradalcontracts.1.0.2.nupkg.sha512",
         "infradalcontracts.nuspec",
         "lib/netcoreapp3.1/InfraDALContracts.dll"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.8": {
+      "sha512": "LxQPR/KE4P9nx304VcFipWPcW8ZOZOGHuiYlG0ncAQJItogDzR9nyYUNvziLObx2MfX2Z9iCTdAqEtoImaQOYg==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/3.1.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec"
       ]
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
@@ -584,6 +620,11 @@
       "path": "../DocumentDAL/DocumentDALImpl.csproj",
       "msbuildProject": "../DocumentDAL/DocumentDALImpl.csproj"
     },
+    "MessangerContracts/1.0.0": {
+      "type": "project",
+      "path": "../MessangerContracts/MessangerContracts.csproj",
+      "msbuildProject": "../MessangerContracts/MessangerContracts.csproj"
+    },
     "ParameterConverterContracts/1.0.0": {
       "type": "project",
       "path": "../ParameterConverterContracts/ParameterConverterContracts.csproj",
@@ -594,7 +635,9 @@
     ".NETCoreApp,Version=v3.1": [
       "Contracts >= 1.0.5",
       "DocumentContracts >= 1.0.0",
-      "DocumentDALImpl >= 1.0.0"
+      "DocumentDALImpl >= 1.0.0",
+      "MessangerContracts >= 1.0.0",
+      "Microsoft.Extensions.Logging.Abstractions >= 3.1.8"
     ]
   },
   "packageFolders": {
@@ -633,6 +676,9 @@
             },
             "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentDAL\\DocumentDALImpl.csproj": {
               "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentDAL\\DocumentDALImpl.csproj"
+            },
+            "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\MessangerContracts\\MessangerContracts.csproj": {
+              "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\MessangerContracts\\MessangerContracts.csproj"
             }
           }
         }
@@ -649,6 +695,10 @@
           "Contracts": {
             "target": "Package",
             "version": "[1.0.5, )"
+          },
+          "Microsoft.Extensions.Logging.Abstractions": {
+            "target": "Package",
+            "version": "[3.1.8, )"
           }
         },
         "imports": [

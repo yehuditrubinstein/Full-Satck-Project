@@ -1,0 +1,14 @@
+C:\Users\מוזסון\source\repos\Full-Satck-Project\MessangerContracts\bin\Debug\netcoreapp3.1\MessangerContracts.deps.json
+C:\Users\מוזסון\source\repos\Full-Satck-Project\MessangerContracts\bin\Debug\netcoreapp3.1\MessangerContracts.dll
+C:\Users\מוזסון\source\repos\Full-Satck-Project\MessangerContracts\bin\Debug\netcoreapp3.1\MessangerContracts.pdb
+C:\Users\מוזסון\source\repos\Full-Satck-Project\MessangerContracts\obj\Debug\netcoreapp3.1\MessangerContracts.AssemblyInfoInputs.cache
+C:\Users\מוזסון\source\repos\Full-Satck-Project\MessangerContracts\obj\Debug\netcoreapp3.1\MessangerContracts.AssemblyInfo.cs
+C:\Users\מוזסון\source\repos\Full-Satck-Project\MessangerContracts\obj\Debug\netcoreapp3.1\MessangerContracts.csproj.CoreCompileInputs.cache
+C:\Users\מוזסון\source\repos\Full-Satck-Project\MessangerContracts\obj\Debug\netcoreapp3.1\MessangerContracts.dll
+C:\Users\מוזסון\source\repos\Full-Satck-Project\MessangerContracts\obj\Debug\netcoreapp3.1\MessangerContracts.pdb
+C:\Users\מוזסון\source\repos\Full-Satck-Project\MessangerContracts\bin\Debug\netcoreapp3.1\DocumentContracts.dll
+C:\Users\מוזסון\source\repos\Full-Satck-Project\MessangerContracts\bin\Debug\netcoreapp3.1\ParameterConverterContracts.dll
+C:\Users\מוזסון\source\repos\Full-Satck-Project\MessangerContracts\bin\Debug\netcoreapp3.1\DocumentContracts.pdb
+C:\Users\מוזסון\source\repos\Full-Satck-Project\MessangerContracts\bin\Debug\netcoreapp3.1\ParameterConverterContracts.pdb
+C:\Users\מוזסון\source\repos\Full-Satck-Project\MessangerContracts\obj\Debug\netcoreapp3.1\MessangerContracts.csprojAssemblyReference.cache
+C:\Users\מוזסון\source\repos\Full-Satck-Project\MessangerContracts\obj\Debug\netcoreapp3.1\MessangerContracts.csproj.CopyComplete

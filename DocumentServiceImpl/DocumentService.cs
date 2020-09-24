@@ -57,7 +57,7 @@ namespace DocumentServiceImpl
             
             return retval;
         }
-
+        
         public DocumentResponse RemoveDocument(Guid docID)
         {
             DocumentResponse retval = default;

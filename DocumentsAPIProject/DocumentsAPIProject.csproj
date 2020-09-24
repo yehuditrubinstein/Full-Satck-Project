@@ -8,11 +8,13 @@
     <PackageReference Include="DI" Version="1.0.5" />
     <PackageReference Include="InfraDALContracts" Version="1.0.2" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="SQLServerInfraDAL" Version="1.0.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\DocumentContracts\DocumentContracts.csproj" />
+    <ProjectReference Include="..\MessangerContracts\MessangerContracts.csproj" />
   </ItemGroup>
 
 

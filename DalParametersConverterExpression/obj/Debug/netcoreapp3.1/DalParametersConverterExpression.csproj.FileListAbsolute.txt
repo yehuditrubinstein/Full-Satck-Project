@@ -3,10 +3,10 @@ C:\Users\מוזסון\source\repos\Full-Satck-Project\DalParametersConverterExpr
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DalParametersConverterExpression\bin\Debug\netcoreapp3.1\DalParametersConverterExpression.pdb
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DalParametersConverterExpression\bin\Debug\netcoreapp3.1\ParameterConverterContracts.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DalParametersConverterExpression\bin\Debug\netcoreapp3.1\ParameterConverterContracts.pdb
+C:\Users\מוזסון\source\repos\Full-Satck-Project\DalParametersConverterExpression\obj\Debug\netcoreapp3.1\DalParametersConverterExpression.csprojAssemblyReference.cache
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DalParametersConverterExpression\obj\Debug\netcoreapp3.1\DalParametersConverterExpression.AssemblyInfoInputs.cache
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DalParametersConverterExpression\obj\Debug\netcoreapp3.1\DalParametersConverterExpression.AssemblyInfo.cs
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DalParametersConverterExpression\obj\Debug\netcoreapp3.1\DalParametersConverterExpression.csproj.CoreCompileInputs.cache
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DalParametersConverterExpression\obj\Debug\netcoreapp3.1\DalParametersConverterExpression.csproj.CopyComplete
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DalParametersConverterExpression\obj\Debug\netcoreapp3.1\DalParametersConverterExpression.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DalParametersConverterExpression\obj\Debug\netcoreapp3.1\DalParametersConverterExpression.pdb
-C:\Users\מוזסון\source\repos\Full-Satck-Project\DalParametersConverterExpression\obj\Debug\netcoreapp3.1\DalParametersConverterExpression.csprojAssemblyReference.cache

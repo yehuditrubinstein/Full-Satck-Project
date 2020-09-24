@@ -93,6 +93,9 @@
             "projectReferences": {
               "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj": {
                 "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj"
+              },
+              "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\MessangerContracts\\MessangerContracts.csproj": {
+                "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\MessangerContracts\\MessangerContracts.csproj"
               }
             }
           }
@@ -118,6 +121,10 @@
               "target": "Package",
               "version": "[3.1.7, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
             "SQLServerInfraDAL": {
               "target": "Package",
               "version": "[1.0.3, )"
@@ -137,6 +144,66 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\MessangerContracts\\MessangerContracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\MessangerContracts\\MessangerContracts.csproj",
+        "projectName": "MessangerContracts",
+        "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\MessangerContracts\\MessangerContracts.csproj",
+        "packagesPath": "C:\\Users\\מוזסון\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\MessangerContracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\מוזסון\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\tichnut\\dev\\pacakges": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj": {
+                "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

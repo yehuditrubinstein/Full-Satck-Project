@@ -14,6 +14,6 @@ namespace DocumentContracts.DTO.Document
         [DBParameter("DocName")]
         public string DocName { get; set; }
         //[DBParameter("DocID")]
-        //public string DocID { get; set; }
+        public Guid DocID { get; set; }
     }
 }

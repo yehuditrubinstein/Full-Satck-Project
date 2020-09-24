@@ -1,5 +1,6 @@
 ﻿using DocumentContracts.DTO;
 using DocumentContracts.DTO.DocumentSharing;
+using System;
 
 namespace DocumentContracts.Interfaces
 {
@@ -7,5 +8,8 @@ namespace DocumentContracts.Interfaces
     {
         DocumentsharingResponse AddSharing(DocumentSharingRequest request);
         DocumentsharingResponse RemoveSharing(DocumentSharingRequest request);
+        DocumentsharingResponse GetShareForDoc(Guid DocID);
+        DocumentsharingResponse GetShareForUser(string userID);
+
     }
 }

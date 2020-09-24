@@ -25,6 +25,7 @@ namespace DocumentServiceImpl
 
                 if (SharingAvailable(request))
                 {
+
                     _dal.AddSharing(request);
                     retval = new DocumentSharingResponseAddOK();
                 }
@@ -66,6 +67,21 @@ namespace DocumentServiceImpl
             ///  לבנתיים
             //
             return true;
+        }
+        public DocumentsharingResponse GetShareForDoc(Guid DocID)
+        {
+            DocumentsharingResponse retval = default;
+            try
+            {
+                if(DocID!=Guid.Empty&&DocID!=null)
+                retval = _dal.GetShareForDoc(DocID);
+            }
+            catch (Exception e)
+            {
+
+                throw;
+            }
+            return retval;
         }
     }
 }

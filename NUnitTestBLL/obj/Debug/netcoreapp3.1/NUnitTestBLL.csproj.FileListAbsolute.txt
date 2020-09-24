@@ -11,6 +11,7 @@ C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\net
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\netcoreapp3.1\InfraDALContracts.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
+C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -99,11 +100,13 @@ C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\net
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\netcoreapp3.1\DocumentContracts.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\netcoreapp3.1\DocumentDALImpl.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\netcoreapp3.1\DocumentServiceImpl.dll
+C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\netcoreapp3.1\MessangerContracts.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\netcoreapp3.1\ParameterConverterContracts.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\netcoreapp3.1\DocumentContracts.pdb
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\netcoreapp3.1\DocumentServiceImpl.pdb
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\netcoreapp3.1\DalParametersConverterExpression.pdb
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\netcoreapp3.1\DocumentDALImpl.pdb
+C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\netcoreapp3.1\MessangerContracts.pdb
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\bin\Debug\netcoreapp3.1\ParameterConverterContracts.pdb
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\obj\Debug\netcoreapp3.1\NUnitTestBLL.csprojAssemblyReference.cache
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestBLL\obj\Debug\netcoreapp3.1\NUnitTestBLL.AssemblyInfoInputs.cache

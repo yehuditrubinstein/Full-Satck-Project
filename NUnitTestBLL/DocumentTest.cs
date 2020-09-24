@@ -2,6 +2,7 @@
 using DocumentContracts.Interfaces.Document;
 using DocumentDALImpl;
 using DocumentServiceImpl;
+using DocumentSQLDALImpl;
 using NUnit.Framework;
 using SQLServerInfraDAL;
 using System;
@@ -16,7 +17,7 @@ namespace NUnitTestBLL
         [SetUp]
         public void Setup()
         {
-            service = new DocumentService(new DocumentDAL(new SQLDAL()));
+            service = new DocumentService(new DocumentDAL(new SQLDAL(),new DocumentSharingDAL(new SQLDAL())));
         }
 
         [Test]

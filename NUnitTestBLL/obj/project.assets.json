@@ -82,6 +82,15 @@
           "lib/netstandard1.3/Microsoft.DotNet.InternalAbstractions.dll": {}
         }
       },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.8": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
       "Microsoft.NET.Test.Sdk/16.4.0": {
         "type": "package",
         "dependencies": {
@@ -1405,13 +1414,28 @@
         "dependencies": {
           "Contracts": "1.0.5",
           "DocumentContracts": "1.0.0",
-          "DocumentDALImpl": "1.0.0"
+          "DocumentDALImpl": "1.0.0",
+          "MessangerContracts": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.8"
         },
         "compile": {
           "bin/placeholder/DocumentServiceImpl.dll": {}
         },
         "runtime": {
           "bin/placeholder/DocumentServiceImpl.dll": {}
+        }
+      },
+      "MessangerContracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DocumentContracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MessangerContracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MessangerContracts.dll": {}
         }
       },
       "ParameterConverterContracts/1.0.0": {
@@ -1555,6 +1579,20 @@
         "lib/netstandard1.3/Microsoft.DotNet.InternalAbstractions.dll",
         "microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",
         "microsoft.dotnet.internalabstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.8": {
+      "sha512": "LxQPR/KE4P9nx304VcFipWPcW8ZOZOGHuiYlG0ncAQJItogDzR9nyYUNvziLObx2MfX2Z9iCTdAqEtoImaQOYg==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/3.1.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec"
       ]
     },
     "Microsoft.NET.Test.Sdk/16.4.0": {
@@ -5127,6 +5165,11 @@
       "type": "project",
       "path": "../DocumentServiceImpl/DocumentServiceImpl.csproj",
       "msbuildProject": "../DocumentServiceImpl/DocumentServiceImpl.csproj"
+    },
+    "MessangerContracts/1.0.0": {
+      "type": "project",
+      "path": "../MessangerContracts/MessangerContracts.csproj",
+      "msbuildProject": "../MessangerContracts/MessangerContracts.csproj"
     },
     "ParameterConverterContracts/1.0.0": {
       "type": "project",

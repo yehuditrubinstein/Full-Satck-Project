@@ -83,6 +83,14 @@
           }
         }
       },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.8": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "3.1.8.0",
+            "fileVersion": "3.100.820.42004"
+          }
+        }
+      },
       "Microsoft.NET.Test.Sdk/16.4.0": {
         "dependencies": {
           "Microsoft.CodeCoverage": "16.4.0",
@@ -994,10 +1002,20 @@
         "dependencies": {
           "Contracts": "1.0.5",
           "DocumentContracts": "1.0.0",
-          "DocumentDALImpl": "1.0.0"
+          "DocumentDALImpl": "1.0.0",
+          "MessangerContracts": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.8"
         },
         "runtime": {
           "DocumentServiceImpl.dll": {}
+        }
+      },
+      "MessangerContracts/1.0.0": {
+        "dependencies": {
+          "DocumentContracts": "1.0.0"
+        },
+        "runtime": {
+          "MessangerContracts.dll": {}
         }
       },
       "ParameterConverterContracts/1.0.0": {
@@ -1047,6 +1065,13 @@
       "sha512": "sha512-AAguUq7YyKk3yDWPoWA8DrLZvURxB/LrDdTn1h5lmPeznkFUpfC3p459w5mQYQE0qpquf/CkSQZ0etiV5vRHFA==",
       "path": "microsoft.dotnet.internalabstractions/1.0.0",
       "hashPath": "microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LxQPR/KE4P9nx304VcFipWPcW8ZOZOGHuiYlG0ncAQJItogDzR9nyYUNvziLObx2MfX2Z9iCTdAqEtoImaQOYg==",
+      "path": "microsoft.extensions.logging.abstractions/3.1.8",
+      "hashPath": "microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512"
     },
     "Microsoft.NET.Test.Sdk/16.4.0": {
       "type": "package",
@@ -1540,6 +1565,11 @@
       "sha512": ""
     },
     "DocumentServiceImpl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MessangerContracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
