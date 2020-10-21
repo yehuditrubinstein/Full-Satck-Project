@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ParameterConverterContracts</id>
+    <version>1.0.0</version>
+    <authors>ParameterConverterContracts</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\מוזסון\source\repos\Full-Satck-Project\ParameterConverterContracts\bin\Release\netcoreapp3.1\ParameterConverterContracts.dll" target="lib\netcoreapp3.1\ParameterConverterContracts.dll" />
+  </files>
+</package>

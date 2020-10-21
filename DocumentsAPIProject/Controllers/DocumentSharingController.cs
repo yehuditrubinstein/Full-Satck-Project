@@ -17,19 +17,12 @@ namespace DocumentsAPIProject.Controllers
     public class DocumentSharingController : ControllerBase
     {
         IDocumentSharingService _Service;
-        public DocumentSharingController(IDocumentSharingService Sharingservice)
-        {
-            _Service = Sharingservice;
-        }
+        public DocumentSharingController(IDocumentSharingService Sharingservice) => _Service = Sharingservice;
         [HttpPost]
-        public DocumentsharingResponse AddSharing([FromBody] DocumentSharingRequest request)
-        {
-            return _Service.AddSharing(request);
-        }
+        public DocumentsharingResponse AddSharing([FromBody] DocumentSharingRequest request) => _Service.AddSharing(request);
         [HttpPost]
-        public DocumentsharingResponse RemoveSharing([FromBody] DocumentSharingRequest request)
-        {
-            return _Service.RemoveSharing(request);
-        }
+        public DocumentsharingResponse RemoveSharing([FromBody] DocumentSharingRequest request) => _Service.RemoveSharing(request);
+        [HttpPost]
+        public DocumentsharingResponse GetShareForDoc(DocumentSharingRequestGetForDoc request) => _Service.GetShareForDoc(request);
     }
 }

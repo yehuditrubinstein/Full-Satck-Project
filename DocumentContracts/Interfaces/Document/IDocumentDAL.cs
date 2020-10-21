@@ -8,8 +8,8 @@ namespace DocumentContracts.Interfaces
     public interface IDocumentDAL
     {
         DocumentResponse AddDocument(DocumentRequest req);
-        DocumentResponse Removedocument(Guid docID);
-        DocumentResponse GetDocument(Guid docID);
-        DocumentResponse GetDocumentsForUser(string userID);
+        DocumentResponse Removedocument(DocumentRequestRemove docID);
+        DocumentResponse GetDocument(Guid DocID);
+        DocumentResponse GetDocumentsForUser(DocumentRequestGetForUser request);
     }
 }

@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "SIFko5MXK1eBmdkn2cM5J2Pmw1y30lCByUJ8ltW1IaP6o0HZoIJ8LKU0p8hbKfCCvRgDE7qWP7tpi17J7ivdqw==",
+  "dgSpecHash": "euBUIWaaqQLcyY1QG4zHpK1C58HevCER8zt96Dn5DLsTyW1jVBY1OpTLY7jegovo1/qSxaheqzGHHhBPje7RbA==",
   "success": true,
   "projectFilePath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentDAL\\DocumentDALImpl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\מוזסון\\.nuget\\packages\\contracts\\1.0.5\\contracts.1.0.5.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\infradalcontracts\\1.0.2\\infradalcontracts.1.0.2.nupkg.sha512",
+    "C:\\Users\\מוזסון\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.9\\microsoft.aspnetcore.http.features.3.1.9.nupkg.sha512",
+    "C:\\Users\\מוזסון\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.9\\microsoft.extensions.primitives.3.1.9.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
@@ -14,8 +16,11 @@
     "C:\\Users\\מוזסון\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\sqlserverinfradal\\1.0.3\\sqlserverinfradal.1.0.3.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\system.data.sqlclient\\4.8.1\\system.data.sqlclient.4.8.1.nupkg.sha512",
+    "C:\\Users\\מוזסון\\.nuget\\packages\\system.io.pipelines\\4.7.3\\system.io.pipelines.4.7.3.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\מוזסון\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+    "C:\\Users\\מוזסון\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\מוזסון\\.nuget\\packages\\dalparametersconverterexpression\\1.0.0\\dalparametersconverterexpression.1.0.0.nupkg.sha512",
+    "C:\\Users\\מוזסון\\.nuget\\packages\\parameterconvertercontracts\\1.0.0\\parameterconvertercontracts.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

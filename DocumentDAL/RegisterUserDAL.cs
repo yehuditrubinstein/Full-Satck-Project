@@ -44,7 +44,7 @@ namespace DocuusmentDALImpl
             {
                 var parameters = _DalParametersConverter.ConvertToParameters(request.UserDTO);
                 var dataset = _SQLDAL.ExecSPQuery("CreateUser", con, parameters);
-                if (dataset != null)
+                if (dataset.Tables[0].Rows.Count!=0)
                 {
                     retval = new RegisterUserResponseAddOK();
                 }

@@ -1,23 +1,17 @@
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net.WebSockets;
 using System.Threading;
-using System.Threading.Tasks;
 using DI;
 using InfraDALContracts;
 using MessangerContracts;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using SQLServerInfraDAL;
-using Newtonsoft.Json.Serialization;
+
 namespace DocumentsAPIProject
 {
     public class Startup
@@ -34,10 +28,9 @@ namespace DocumentsAPIProject
         {
             services.AddControllers()
                     .AddJsonOptions(options => {options.JsonSerializerOptions.PropertyNamingPolicy = null;  });
-            services.AddControllers();
             services.AddTransient<ISocket, WebSocketAdapter>();
             services.AddSingleton<IMessanger, WebSocketMessangerAdapter>();
-            services.AddSingleton<IInfraDal, SQLDAL>();
+            services.AddTransient<IInfraDal, SQLDAL>();
             var path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "dlls");
             var resolver = new Resolver(path, services);
         }

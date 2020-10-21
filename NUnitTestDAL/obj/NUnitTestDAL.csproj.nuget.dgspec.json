@@ -111,6 +111,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "ParameterConverterContracts": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -234,6 +244,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DalParametersConverterExpression\\DalParametersConverterExpression.csproj": {
+                "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DalParametersConverterExpression\\DalParametersConverterExpression.csproj"
+              },
               "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj": {
                 "projectPath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj"
               },

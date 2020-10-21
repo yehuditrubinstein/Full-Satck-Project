@@ -9,5 +9,7 @@ namespace DocumentContracts.DTO.Markers
     {
         [DBParameter("MarkerId")]
         public Guid MarkerId { get; set; }
+        public Guid DocID { get; set; }
+        public string UserID { get; set; }
     }
 }

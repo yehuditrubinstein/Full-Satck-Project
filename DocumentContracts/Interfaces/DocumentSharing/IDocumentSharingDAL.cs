@@ -8,8 +8,8 @@ namespace DocumentContracts.Interfaces
     {
         DocumentsharingResponse AddSharing(DocumentSharingRequest request);
         DocumentsharingResponse RemoveSharing(DocumentSharingRequest request);
-        DocumentsharingResponse GetShareForDoc(Guid DocID);
-        DocumentsharingResponse GetShareForUser(string userID);
+        DocumentsharingResponse GetShareForDoc(DocumentSharingRequestGetForDoc request);
+        DocumentsharingResponse GetShareForUser(DocumentSharingRequestGetForUser request);
 
     }
 }

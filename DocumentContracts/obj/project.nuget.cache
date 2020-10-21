@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "NSPdP9tEy958o3FSTAa187P2o5Up0eucITDGkYJ1zS0+N0ll2IXUkdzgB4C/tpGXBG5yDPActxqC6J67KiMKgg==",
+  "dgSpecHash": "tc05J2Fg+mJGNQTZVjaoCoEJ1RkEznhYiMn3SDcx4De93eXZyVSE0qf2A2eXTAO4vxKhWI0wKNnKG/0tn/S55Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\DocumentContracts\\DocumentContracts.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\מוזסון\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.9\\microsoft.aspnetcore.http.features.3.1.9.nupkg.sha512",
+    "C:\\Users\\מוזסון\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.9\\microsoft.extensions.primitives.3.1.9.nupkg.sha512",
+    "C:\\Users\\מוזסון\\.nuget\\packages\\system.io.pipelines\\4.7.3\\system.io.pipelines.4.7.3.nupkg.sha512",
+    "C:\\Users\\מוזסון\\.nuget\\packages\\parameterconvertercontracts\\1.0.0\\parameterconvertercontracts.1.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

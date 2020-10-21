@@ -41,7 +41,7 @@ namespace NUnitTestDAL
         [Test]
         public void RemoveDocument()
         {
-            var res = _DocumentDAL.Removedocument(new Guid("4AEF93E8-05E9-4C72-8FAE-76C197DE11B3") { });
+            var res = _DocumentDAL.Removedocument(new DocumentRequestRemove(){DocID= new Guid("4AEF93E8-05E9-4C72-8FAE-76C197DE11B3") });
             Assert.IsInstanceOf(typeof(DocumentResponseRemoveOK), res);
         }
     }

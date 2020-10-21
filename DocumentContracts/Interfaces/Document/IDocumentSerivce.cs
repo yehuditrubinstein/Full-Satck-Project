@@ -9,7 +9,7 @@ namespace DocumentContracts.Interfaces.Document
     {
         DocumentResponse AddDocument(DocumentRequest request);
         DocumentResponse GetDocument(Guid docID);
-        DocumentResponse RemoveDocument(Guid docID);
-        DocumentResponse GetDocumentForUser(string useriD);
+        DocumentResponse RemoveDocument(DocumentRequestRemove docID);
+        DocumentResponse GetDocumentForUser(DocumentRequestGetForUser request);
     }
 }

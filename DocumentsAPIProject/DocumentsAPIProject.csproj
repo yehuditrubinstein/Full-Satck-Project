@@ -13,8 +13,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DalParametersConverterExpression\DalParametersConverterExpression.csproj" />
     <ProjectReference Include="..\DocumentContracts\DocumentContracts.csproj" />
     <ProjectReference Include="..\MessangerContracts\MessangerContracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Images\" />
   </ItemGroup>
 
 

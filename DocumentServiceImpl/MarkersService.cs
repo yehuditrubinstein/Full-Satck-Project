@@ -35,27 +35,23 @@ namespace DocumentServiceImpl
         public MarkerRsponse AddMarker(MarkerRequestAdd request)
         {
             MarkerRsponse response = default;
+            List<DocumentSharingDTO> shared=default ;
+            List<string> mylist =new List<string>();
+
             try
             {
-                //if available
-   
                 response = _dal.AddMarker(request);
-                List<DocumentSharingDTO> shared = _documentSharingService.GetShareForDoc(request.MarkerDTO.DocID).DocumentSharingDTO;
-                List<string> mylist = new List<string>();
-                shared.ForEach(s => mylist.Add(s.UserId));
-                DocumentDTO doc = _DocumentDAL.GetDocument(request.MarkerDTO.DocID).documentDTO[0];
-                mylist.Add(doc.UserID);
-                _messanger.SendMarkerToAll(mylist, new MarkerDTO() { 
-                    DocID=request.MarkerDTO.DocID,
-                    MarkerType=request.MarkerDTO.MarkerType,
-                    userId=request.MarkerDTO.userId,
-                    CenterX=request.MarkerDTO.CenterX,
-                    CenterY=request.MarkerDTO.CenterY,
-                    RadiusX=request.MarkerDTO.RadiusX,
-                    RadiusY=request.MarkerDTO.RadiusY,
-                    ForeColor=request.MarkerDTO.ForeColor,
-                    BackColor=request.MarkerDTO.BackColor
-                });
+
+                shared=_documentSharingService.GetShareForDoc(new DocumentSharingRequestGetForDoc() { DocID=request.MarkerDTO.DocID}).DocumentSharingDTO;
+                if (shared != null)
+                {
+                    //create list type string for send to all
+                    shared.ForEach(s => mylist.Add(s.UserId));
+                    //add the usrid of the usr whose document he owns
+                   
+                    mylist.Remove(request.MarkerDTO.userId);
+                    _messanger.SendMarkerToAll(mylist,response);
+                }
             }
             catch (Exception e)
             {
@@ -67,10 +63,20 @@ namespace DocumentServiceImpl
         }
         public MarkerRsponse RemoveMarker(MarkerRequestRemove request)
         {
+            List<DocumentSharingDTO> shared = default;
+            List<string> mylist = new List<string>();
             MarkerRsponse response = default;
             try
             {
                 response = _dal.RemoveMarker(request);
+                shared = _documentSharingService.GetShareForDoc(new DocumentSharingRequestGetForDoc() { DocID = request.DocID }).DocumentSharingDTO;
+                if (shared != null)
+                {
+                    shared.ForEach(s => mylist.Add(s.UserId));
+                   
+                    mylist.Remove(request.UserID);
+                    _messanger.SendMarkerToAll(mylist,response);
+                }
             }
             catch (Exception e)
             {

@@ -26,8 +26,7 @@ namespace DocumentServiceImpl
                 if (SharingAvailable(request))
                 {
 
-                    _dal.AddSharing(request);
-                    retval = new DocumentSharingResponseAddOK();
+                    retval = _dal.AddSharing(request);
                 }
                 else
                 {
@@ -37,7 +36,7 @@ namespace DocumentServiceImpl
             }
             catch (Exception e)
             {
-              //  Console.log(e)
+                //  Console.log(e)
                 retval = new DocumentSharingResponseDontAdd();
             }
             return retval;
@@ -68,13 +67,13 @@ namespace DocumentServiceImpl
             //
             return true;
         }
-        public DocumentsharingResponse GetShareForDoc(Guid DocID)
+        public DocumentsharingResponse GetShareForDoc(DocumentSharingRequestGetForDoc request)
         {
             DocumentsharingResponse retval = default;
             try
             {
-                if(DocID!=Guid.Empty&&DocID!=null)
-                retval = _dal.GetShareForDoc(DocID);
+                if (request.DocID != Guid.Empty && request.DocID != null)
+                    retval = _dal.GetShareForDoc(request);
             }
             catch (Exception e)
             {

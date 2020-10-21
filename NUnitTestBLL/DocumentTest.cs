@@ -23,7 +23,7 @@ namespace NUnitTestBLL
         [Test]
         public void getAllforuser()
         {
-            var res = service.GetDocumentForUser("ym5871816@gmail.com");
+            var res = service.GetDocumentForUser(new DocumentRequestGetForUser() { UserID = "ym5871816@gmail.com" });
             Assert.IsInstanceOf(typeof(DocumentResponse), res);
         }
         [Test]

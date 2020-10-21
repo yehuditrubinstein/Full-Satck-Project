@@ -36,9 +36,23 @@ namespace DocumentDALImpl
                 var con = _SQLdal.Connect("Server=LAPTOP-B6F4SVRM;Database=DocumentProject;" + "Trusted_Connection=True;");
                 var parameters = _paramConverter.ConvertToParameters(request.MarkerDTO);
                 var dataset = _SQLdal.ExecSPQuery("CreateMarker", con, parameters);
-                if (dataset != null)
+                if (dataset.Tables[0].Rows.Count!=0)
                 {
-                    response = new MarkersResponseAddOK();
+                    var markers = new List<MarkerDTO>();
+                    markers.Add(new MarkerDTO()
+                    {
+                        BackColor = request.MarkerDTO.BackColor,
+                        CenterX = request.MarkerDTO.CenterX,
+                        CenterY = request.MarkerDTO.CenterY,
+                        DocID = request.MarkerDTO.DocID,
+                        ForeColor = request.MarkerDTO.ForeColor,
+                        MarkerID = dataset.Tables[0].Rows[0].Field<Guid>("MarkerID"),
+                        MarkerType = request.MarkerDTO.MarkerType,
+                        RadiusX = request.MarkerDTO.RadiusX,
+                        RadiusY = request.MarkerDTO.RadiusY,
+                        userId = request.MarkerDTO.userId
+                    });
+                    response = new MarkersResponseAddOK() {Markers=markers };
                 }
 
             }
@@ -55,11 +69,13 @@ namespace DocumentDALImpl
             try
             {
                 var con = _SQLdal.Connect("Server=LAPTOP-B6F4SVRM;Database=DocumentProject;" + "Trusted_Connection=True;");
-                var parameters = new DBParameterConverter(_SQLdal).ConvertToParameters(request);
+                var parameters = _paramConverter.ConvertToParameter(request, "MarkerId");
                 var dataset = _SQLdal.ExecSPQuery("RemoveMarker", con, parameters);
-                if (dataset != null)
+                if (dataset.Tables[0].Rows.Count!=0)
                 {
-                    response = new MarkerResponseRemoveOk();
+                    var markers = new List<MarkerDTO>();
+                    markers.Add(new MarkerDTO() { MarkerID = request.MarkerId });
+                    response = new MarkerResponseRemoveOk() { Markers=markers};
                 }
             }
             catch (Exception e)
@@ -75,30 +91,34 @@ namespace DocumentDALImpl
             try
             {
                 var con = _SQLdal.Connect("Server=LAPTOP-B6F4SVRM;Database=DocumentProject;" + "Trusted_Connection=True;");
-                //var parameter = new DBParameterConverter(_SQLdal).ConvertToParameter(request.DocId, "DocId");
-                var parameter = _SQLdal.GetParameter("DocID", request.DocID);
+                var parameter = _paramConverter.ConvertToParameter(request, "DocId");
 
-                var dataset = _SQLdal.ExecSPQuery("GetMarkers", con, parameter);
-                if (dataset.Tables[0].Rows.Count != 0)
+                if (parameter != null)
                 {
-                    retval = new MarkerRsponse()
+                    var dataset = _SQLdal.ExecSPQuery("GetMarkers", con, parameter);
+                    if (dataset.Tables[0].Rows.Count != 0)
                     {
-                        Markers = new List<MarkerDTO>()
+                        retval = new MarkerRsponse()
+                        {
+                            Markers = new List<MarkerDTO>()
 
-                    };
-                    var markersList = dataset.Tables[0].AsEnumerable().Select(dataRow => new MarkerDTO
-                    {
-                        CenterX = dataRow.Field<int>("CenterX"),
-                        CenterY = dataRow.Field<int>("CenterY"),
-                        RadiusX = dataRow.Field<int>("RadiusX"),
-                        RadiusY = dataRow.Field<int>("RadiusY"),
-                        ForeColor = dataRow.Field<string>("ForeColor"),
-                        BackColor = dataRow.Field<string>("BackColor"),
-                        MarkerType = dataRow.Field<string>("MarkerType"),
-                        DocID = dataRow.Field<Guid>("DocID"),
-                        userId= dataRow.Field<string>("userId")
-                    }).ToList();
-                    retval.Markers = markersList;
+                        };
+                        var markersList = dataset.Tables[0].AsEnumerable().Select(dataRow => new MarkerDTO
+                        {
+
+                            CenterX = dataRow.Field<int>("CenterX"),
+                            CenterY = dataRow.Field<int>("CenterY"),
+                            RadiusX = dataRow.Field<int>("RadiusX"),
+                            RadiusY = dataRow.Field<int>("RadiusY"),
+                            ForeColor = dataRow.Field<string>("ForeColor"),
+                            BackColor = dataRow.Field<string>("BackColor"),
+                            MarkerType = dataRow.Field<string>("MarkerType"),
+                            DocID = dataRow.Field<Guid>("DocID"),
+                            userId = dataRow.Field<string>("userId"),
+                            MarkerID = dataRow.Field<Guid>("MarkerID")
+                        }).ToList();
+                        retval.Markers = markersList;
+                    }
                 }
             }
             catch (Exception e)
@@ -108,5 +128,49 @@ namespace DocumentDALImpl
             }
             return retval;
         }
+        public MarkerRsponse GetMarkerByID(RequestGetMarkers request)
+        {
+            MarkerRsponse retval = default;
+            try
+            {
+                var con = _SQLdal.Connect("Server=LAPTOP-B6F4SVRM;Database=DocumentProject;" + "Trusted_Connection=True;");
+                var parameter = _paramConverter.ConvertToParameter(request, "DocId");
+                parameter.ParameterName = "MarkerID";
+                if (parameter != null)
+                {
+                    var dataset = _SQLdal.ExecSPQuery("GetMarkerByID", con, parameter);
+                    if (dataset.Tables[0].Rows.Count != 0)
+                    {
+                        retval = new MarkerRsponse()
+                        {
+                            Markers = new List<MarkerDTO>()
+
+                        };
+                        var markersList = dataset.Tables[0].AsEnumerable().Select(dataRow => new MarkerDTO
+                        {
+
+                            CenterX = dataRow.Field<int>("CenterX"),
+                            CenterY = dataRow.Field<int>("CenterY"),
+                            RadiusX = dataRow.Field<int>("RadiusX"),
+                            RadiusY = dataRow.Field<int>("RadiusY"),
+                            ForeColor = dataRow.Field<string>("ForeColor"),
+                            BackColor = dataRow.Field<string>("BackColor"),
+                            MarkerType = dataRow.Field<string>("MarkerType"),
+                            DocID = dataRow.Field<Guid>("DocID"),
+                            userId = dataRow.Field<string>("userId"),
+                            MarkerID = dataRow.Field<Guid>("MarkerID")
+                        }).ToList();
+                        retval.Markers = markersList;
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                //log
+                throw;
+            }
+            return retval;
+        }
+
     }
 }

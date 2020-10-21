@@ -5,6 +5,8 @@ namespace DocumentContracts.DTO.Markers
 {
     public class MarkerDTO
     {
+        //[DBParameter("MarkerID")]
+        public Guid MarkerID { get; set; }
         [DBParameter("DocID")]
         public Guid DocID { get; set; }
         [DBParameter("MarkerType")]

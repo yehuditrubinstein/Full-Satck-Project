@@ -15,7 +15,7 @@ C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentContracts\bin\Debu
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentContracts\obj\Debug\netcoreapp3.1\DocumentContracts.csprojAssemblyReference.cache
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentContracts\obj\Debug\netcoreapp3.1\DocumentContracts.AssemblyInfoInputs.cache
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentContracts\obj\Debug\netcoreapp3.1\DocumentContracts.AssemblyInfo.cs
-C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentContracts\obj\Debug\netcoreapp3.1\DocumentContracts.csproj.CoreCompileInputs.cache
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentContracts\obj\Debug\netcoreapp3.1\DocumentContracts.csproj.CopyComplete
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentContracts\obj\Debug\netcoreapp3.1\DocumentContracts.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentContracts\obj\Debug\netcoreapp3.1\DocumentContracts.pdb
+C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentContracts\obj\Debug\netcoreapp3.1\DocumentContracts.csproj.CoreCompileInputs.cache

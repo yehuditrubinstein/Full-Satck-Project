@@ -206,9 +206,9 @@ C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestDAL\bin\Debug\net
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestDAL\bin\Debug\netcoreapp3.1\DocumentContracts.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestDAL\bin\Debug\netcoreapp3.1\DocumentDALImpl.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestDAL\bin\Debug\netcoreapp3.1\ParameterConverterContracts.dll
+C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestDAL\bin\Debug\netcoreapp3.1\DalParametersConverterExpression.pdb
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestDAL\bin\Debug\netcoreapp3.1\DocumentContracts.pdb
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestDAL\bin\Debug\netcoreapp3.1\DocumentDALImpl.pdb
-C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestDAL\bin\Debug\netcoreapp3.1\DalParametersConverterExpression.pdb
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestDAL\bin\Debug\netcoreapp3.1\ParameterConverterContracts.pdb
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestDAL\obj\Debug\netcoreapp3.1\NUnitTestDAL.csprojAssemblyReference.cache
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestDAL\obj\Debug\netcoreapp3.1\NUnitTestDAL.AssemblyInfoInputs.cache
@@ -218,3 +218,6 @@ C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestDAL\obj\Debug\net
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestDAL\obj\Debug\netcoreapp3.1\NUnitTestDAL.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestDAL\obj\Debug\netcoreapp3.1\NUnitTestDAL.pdb
 C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestDAL\obj\Debug\netcoreapp3.1\NUnitTestDAL.genruntimeconfig.cache
+C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestDAL\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestDAL\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\מוזסון\source\repos\Full-Satck-Project\NUnitTestDAL\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll

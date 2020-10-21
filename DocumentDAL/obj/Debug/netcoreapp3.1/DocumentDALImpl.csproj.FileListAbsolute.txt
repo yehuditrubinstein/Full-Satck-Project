@@ -28,7 +28,7 @@ C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentDAL\bin\Debug\netc
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentDAL\obj\Debug\netcoreapp3.1\DocumentDALImpl.csprojAssemblyReference.cache
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentDAL\obj\Debug\netcoreapp3.1\DocumentDALImpl.AssemblyInfoInputs.cache
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentDAL\obj\Debug\netcoreapp3.1\DocumentDALImpl.AssemblyInfo.cs
-C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentDAL\obj\Debug\netcoreapp3.1\DocumentDALImpl.csproj.CoreCompileInputs.cache
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentDAL\obj\Debug\netcoreapp3.1\DocumentDALImpl.csproj.CopyComplete
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentDAL\obj\Debug\netcoreapp3.1\DocumentDALImpl.dll
 C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentDAL\obj\Debug\netcoreapp3.1\DocumentDALImpl.pdb
+C:\Users\מוזסון\source\repos\Full-Satck-Project\DocumentDAL\obj\Debug\netcoreapp3.1\DocumentDALImpl.csproj.CoreCompileInputs.cache

@@ -1,6 +1,7 @@
 ﻿using Contracts;
 using DalParametersConverterExpression;
 using DocumentContracts.DTO.Document;
+using DocumentContracts.DTO.DocumentSharing;
 using DocumentContracts.Interfaces;
 using InfraDALContracts;
 using System;
@@ -8,7 +9,6 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
-
 namespace DocumentDALImpl
 {
     [Register(Policy.Transient, typeof(IDocumentDAL))]
@@ -18,6 +18,7 @@ namespace DocumentDALImpl
         private IInfraDal _SQLDAL;
         DBParameterConverter _paramConverter;
         private IDBConnection con;
+
         public DocumentDAL(IInfraDal SQLDAL, IDocumentSharingDAL DocumentSharingDAL)
         {
             _DocumentSharingDAL = DocumentSharingDAL;
@@ -33,9 +34,9 @@ namespace DocumentDALImpl
                 var parameters = _paramConverter.ConvertToParameters(req.documentDTO);
                 var dataset = _SQLDAL.ExecSPQuery("CreateDocument", con, parameters);
 
-                if (dataset != null)
+                if (dataset.Tables[0].Rows.Count != 0)
                 {
-                    retval = new DocumentResponseAddOK();
+                    retval = new DocumentResponseAddOK() { documentDTO = new List<DocumentDTO>() { new DocumentDTO() { DocID = dataset.Tables[0].Rows[0].Field<Guid>("DocID") } } };
                 }
             }
             catch (Exception e)
@@ -80,16 +81,18 @@ namespace DocumentDALImpl
             return retval;
         }
 
-        public DocumentResponse GetDocumentsForUser(string userID)
+
+
+        public DocumentResponse GetDocumentsForUser(DocumentRequestGetForUser request)
         {
             DocumentResponse retval = default;
             try
             {
-                var param = _SQLDAL.GetParameter("UserID", userID);
+
+                var param = _paramConverter.ConvertToParameter(request, "UserID");
                 var dataset = _SQLDAL.ExecSPQuery("GetDocumentsForUser", con, param);
                 if (dataset.Tables[0].Rows.Count != 0)
                 {
-
                     retval = new DocumentResponse()
                     {
                         documentDTO = new List<DocumentDTO>()
@@ -103,20 +106,30 @@ namespace DocumentDALImpl
                         DocID = dataRow.Field<Guid>("DocID")
                     }).ToList();
                     retval.documentDTO = docList;
-                    var sharing = _DocumentSharingDAL.GetShareForUser(userID);
-                    List<DocumentDTO> sharedDocs = new List<DocumentDTO>();
-                    if (sharing!=null&&sharing.DocumentSharingDTO.Count!=0)
+                }
+                var sharing = _DocumentSharingDAL.GetShareForUser(new DocumentSharingRequestGetForUser() { userID = request.UserID });
+                List<DocumentDTO> sharedDocs = new List<DocumentDTO>();
+                if (sharing.DocumentSharingDTO != null && sharing.DocumentSharingDTO.Count != 0)
+                {
+                    foreach (var item in sharing.DocumentSharingDTO)
                     {
-                        foreach (var item in sharing.DocumentSharingDTO)
-                        {
+                      
                             var doc = GetDocument(item.DocID);
+                        if(doc.documentDTO[0].UserID!=request.UserID)
                             sharedDocs.Add(doc.documentDTO[0]);
-                        }
-                        retval.documentDTO.AddRange(sharedDocs);
+                        
+
                     }
+                    if (retval == null)
+                    {
+                        retval = new DocumentResponse() { documentDTO = new List<DocumentDTO>() };
+
+                    }
+                    retval.documentDTO.AddRange(sharedDocs);
 
                 }
-                else
+
+                if (retval == null)
                 {
                     retval = new DocumentResponseEmpty();
                 }
@@ -130,14 +143,17 @@ namespace DocumentDALImpl
             return retval;
         }
 
-        public DocumentResponse Removedocument(Guid docID)
+
+
+        public DocumentResponse Removedocument(DocumentRequestRemove docID)
         {
             DocumentResponse retval = default;
             try
             {
-                var param = _SQLDAL.GetParameter("DocID", docID);
+                var param = _paramConverter.ConvertToParameter(docID, "DocID");
                 var dataset = _SQLDAL.ExecSPQuery("RemoveDocument", con, param);
-                retval = new DocumentResponseRemoveOK();
+                if (dataset.Tables[0].Rows.Count != 0)
+                    retval = new DocumentResponseRemoveOK();
             }
             catch (Exception e)
             {

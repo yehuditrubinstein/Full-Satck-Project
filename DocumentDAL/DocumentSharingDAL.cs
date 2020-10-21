@@ -23,7 +23,6 @@ namespace DocumentSQLDALImpl
       
         public DocumentSharingDAL(IInfraDal SQLDAL)
         {
-           
             _SQLDAL = SQLDAL;
             _paramConverter = new DBParameterConverter(_SQLDAL);
             con = _SQLDAL.Connect("Server=LAPTOP-B6F4SVRM;Database=DocumentProject;" + "Trusted_Connection=True;");
@@ -38,9 +37,11 @@ namespace DocumentSQLDALImpl
                 var parameters = _paramConverter.ConvertToParameters(request.sharingDTO);
                 var dataset = _SQLDAL.ExecSPQuery("CreateShare", con, parameters);
 
-                if (dataset != null)
+                if (dataset.Tables[0].Rows.Count!=0)
                 {
                     retval = new DocumentSharingResponseAddOK();
+                    retval.DocumentSharingDTO = new List<DocumentSharingDTO>();
+                    retval.DocumentSharingDTO.Add(new DocumentSharingDTO() { DocID = request.sharingDTO.DocID, UserId = request.sharingDTO.UserId });
                 }
             }
             catch (Exception e)
@@ -58,7 +59,7 @@ namespace DocumentSQLDALImpl
             {
                 var parameters = _paramConverter.ConvertToParameters(request.sharingDTO);
                 var dataset = _SQLDAL.ExecSPQuery("DeleteShare", con, parameters);
-                if (dataset != null)
+                if (dataset.Tables[0].Rows.Count!=0)
                 {
                     retval = new DocumentSharingResponseRemoveOK();
                 }
@@ -69,18 +70,14 @@ namespace DocumentSQLDALImpl
             }
             return retval;
         }
-        public IDBParameter GetParameter(string parameterName, object paramValue)
+      
+        public DocumentsharingResponse GetShareForDoc(DocumentSharingRequestGetForDoc request)
         {
-            IDBParameter param = new SqlParameterAdapter() { ParameterName = parameterName, Value = paramValue };
-            return param;
-        }
-        public DocumentsharingResponse GetShareForDoc(Guid DocID)
-        {
-            DocumentsharingResponse res = default;
+            DocumentsharingResponse res = new DcumentSharingResponseEmpty();
             try
             {
                 var con = _SQLDAL.Connect("Server=LAPTOP-B6F4SVRM;Database=DocumentProject;" + "Trusted_Connection=True;");
-                var param = GetParameter("DocID", DocID);
+                var param = _paramConverter.ConvertToParameter(request,"DocID");
                 var dataset = _SQLDAL.ExecSPQuery("GetShareForDoc", con, param);
                 if (dataset.Tables[0].Rows.Count != 0)
                 {
@@ -107,10 +104,10 @@ namespace DocumentSQLDALImpl
             return res;
 
         }
-        public DocumentsharingResponse GetShareForUser(string userID)
+        public DocumentsharingResponse GetShareForUser(DocumentSharingRequestGetForUser request)
         {
-            DocumentsharingResponse retval = default;
-            var param = _SQLDAL.GetParameter("userID", userID);
+            DocumentsharingResponse retval = new DcumentSharingResponseEmpty();
+            var param = _paramConverter.ConvertToParameter(request,"userID");
             var dataset = _SQLDAL.ExecSPQuery("GetShareForUser", con, param);
             try
             {
@@ -137,5 +134,7 @@ namespace DocumentSQLDALImpl
             }
             return retval;
         }
+
+       
     }
 }

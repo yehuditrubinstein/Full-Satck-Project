@@ -1,10 +1,13 @@
 ﻿using Contracts;
+using DocumentContracts.DTO;
 using DocumentContracts.DTO.Document;
+using DocumentContracts.DTO.DocumentSharing;
 using DocumentContracts.Interfaces;
 using DocumentContracts.Interfaces.Document;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Transactions;
 
 namespace DocumentServiceImpl
 {
@@ -12,9 +15,11 @@ namespace DocumentServiceImpl
     public class DocumentService : IDocumentSerivce
     {
         private IDocumentDAL _DAL;
-        public DocumentService(IDocumentDAL DAL)
+        private IDocumentSharingService _IDocumentSharingService;
+        public DocumentService(IDocumentDAL DAL,IDocumentSharingService DocumentSharingService)
         {
             _DAL = DAL;
+            _IDocumentSharingService = DocumentSharingService;
         }
         public DocumentResponse AddDocument(DocumentRequest request)
         {
@@ -22,7 +27,14 @@ namespace DocumentServiceImpl
 
             if (Available(request))
             {
-                response = _DAL.AddDocument(request);
+              
+              
+                    response = _DAL.AddDocument(request);
+                if (response is DocumentResponseAddOK)
+                    
+                     _IDocumentSharingService.AddSharing(new DocumentSharingRequest() { sharingDTO = new SharingDTO() { DocID = response.documentDTO[0].DocID, UserId = request.documentDTO.UserID } });
+                else
+                    response = new DocumentResponseDontAdd(); 
             }
 
             else
@@ -45,20 +57,20 @@ namespace DocumentServiceImpl
             return retval;
         }
 
-        public DocumentResponse GetDocumentForUser(string UserID)
+        public DocumentResponse GetDocumentForUser(DocumentRequestGetForUser request)
         {
             DocumentResponse retval = default;
 
-            if (UserID!=""&&UserID!=null)
+            if (request.UserID!=""&& request.UserID != null)
             {
-              retval=_DAL.GetDocumentsForUser(UserID);
+              retval=_DAL.GetDocumentsForUser(request);
             }
              
             
             return retval;
         }
         
-        public DocumentResponse RemoveDocument(Guid docID)
+        public DocumentResponse RemoveDocument(DocumentRequestRemove docID)
         {
             DocumentResponse retval = default;
 

@@ -10,7 +10,7 @@ namespace MessangerContracts
     {
         Task Send(string id, MessageBody messageBody);
         Task SendtoAll(List<string> id, MessageBody messageBody);
-        Task SendMarkerToAll(List<string> id, MarkerDTO marker);
+        Task SendMarkerToAll(List<string> id, object marker);
         Task<IReceiver> Add(string id, ISocket socket);
     }
 }

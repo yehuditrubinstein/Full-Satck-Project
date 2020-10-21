@@ -65,13 +65,13 @@ namespace DocumentsAPIProject
             }
 
         }
-        public async Task SendMarkerToAll(List<string> id, MarkerDTO marker)
+        public async Task SendMarkerToAll(List<string> id, object messageBody)
         {
             foreach (var item in id)
             {
                 if (_sockets.ContainsKey(item))
                 {
-                    var message = JsonConvert.SerializeObject(marker);
+                    var message = JsonConvert.SerializeObject(messageBody);
                     var buffer = Encoding.UTF8.GetBytes(message);
                     await _sockets[item].SendAsync(new ReadOnlyMemory<byte>(buffer), WebSocketMessageType.Text
                         , true

@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "9p+Z3u1GBZDBfe5Ervk43ak3Wz1CFSl7v1oMAfc19Ch0LFRECuak4f/j4leKLXLuS2Ep7jm+nlYmA2X+aKfjBQ==",
+  "dgSpecHash": "gA4067qeqOCT0twh5r7Sok/RbiaA6d1WtYI0qP/UEqSstxCRZvKM3CKY1iCx2ZtdLwDTDnKjdWbBPJvj9MCIZw==",
   "success": true,
   "projectFilePath": "C:\\Users\\מוזסון\\source\\repos\\Full-Satck-Project\\NUnitTestDAL\\NUnitTestDAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\מוזסון\\.nuget\\packages\\contracts\\1.0.5\\contracts.1.0.5.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\infradalcontracts\\1.0.2\\infradalcontracts.1.0.2.nupkg.sha512",
+    "C:\\Users\\מוזסון\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.9\\microsoft.aspnetcore.http.features.3.1.9.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\microsoft.dotnet.internalabstractions\\1.0.0\\microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",
+    "C:\\Users\\מוזסון\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.9\\microsoft.extensions.primitives.3.1.9.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\microsoft.net.test.sdk\\16.4.0\\microsoft.net.test.sdk.16.4.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
@@ -45,6 +47,7 @@
     "C:\\Users\\מוזסון\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\מוזסון\\.nuget\\packages\\system.io.pipelines\\4.7.3\\system.io.pipelines.4.7.3.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\system.linq.expressions\\4.1.0\\system.linq.expressions.4.1.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\system.objectmodel\\4.0.12\\system.objectmodel.4.0.12.nupkg.sha512",
@@ -76,7 +79,9 @@
     "C:\\Users\\מוזסון\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\מוזסון\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\מוזסון\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\מוזסון\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\מוזסון\\.nuget\\packages\\dalparametersconverterexpression\\1.0.0\\dalparametersconverterexpression.1.0.0.nupkg.sha512",
+    "C:\\Users\\מוזסון\\.nuget\\packages\\parameterconvertercontracts\\1.0.0\\parameterconvertercontracts.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }
