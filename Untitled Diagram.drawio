@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-10T10:56:43.726Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="oTVfT3jqn6Gdigf9YGf8" version="13.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-10T11:01:39.515Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="doG3J8k1qiuRK8p950p-" version="13.9.2" type="github">
   <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -25,39 +25,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ebzaWmidBUEkUafb_fH5-61" value="מנהל" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="70" width="30" height="60" as="geometry" />
+          <mxGeometry x="655" y="100" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ebzaWmidBUEkUafb_fH5-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ebzaWmidBUEkUafb_fH5-67" target="ebzaWmidBUEkUafb_fH5-70">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="530" y="90" />
-              <mxPoint x="530" y="90" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="ebzaWmidBUEkUafb_fH5-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ebzaWmidBUEkUafb_fH5-67" target="ebzaWmidBUEkUafb_fH5-80">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ebzaWmidBUEkUafb_fH5-67" value="&lt;br&gt;&lt;br&gt;צופה בכל הפניות" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="365" y="50" width="105" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ebzaWmidBUEkUafb_fH5-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ebzaWmidBUEkUafb_fH5-70" target="ebzaWmidBUEkUafb_fH5-72">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ebzaWmidBUEkUafb_fH5-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ebzaWmidBUEkUafb_fH5-70" target="ebzaWmidBUEkUafb_fH5-74">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ebzaWmidBUEkUafb_fH5-70" value="&lt;br&gt;צופה בפרטי פניה" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="550" y="50" width="105" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ebzaWmidBUEkUafb_fH5-72" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;מסמן פניה כסגורה&lt;/span&gt;&#xa;&#xa;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="727.5" y="40" width="112.5" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="ebzaWmidBUEkUafb_fH5-74" value="&lt;br&gt;לוחץ להוספת הערה" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="542.5" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="470" y="90" width="105" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ebzaWmidBUEkUafb_fH5-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ebzaWmidBUEkUafb_fH5-35" target="ebzaWmidBUEkUafb_fH5-53">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="419" y="550" />
-              <mxPoint x="333" y="550" />
+              <mxPoint x="360" y="550" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -71,10 +51,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ebzaWmidBUEkUafb_fH5-42" value="&lt;br&gt;לוחץ להוספת הערה" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="430" y="450" width="120" height="65" as="geometry" />
+          <mxGeometry x="430" y="385" width="120" height="65" as="geometry" />
         </mxCell>
         <mxCell id="ebzaWmidBUEkUafb_fH5-44" value="&lt;br&gt;מכניס נתוני הערה" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="350" y="345" width="120" height="65" as="geometry" />
+          <mxGeometry x="575" y="386.64" width="120" height="65" as="geometry" />
         </mxCell>
         <mxCell id="ebzaWmidBUEkUafb_fH5-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ebzaWmidBUEkUafb_fH5-42" target="ebzaWmidBUEkUafb_fH5-44">
           <mxGeometry x="270" y="230.23" as="geometry" />
@@ -92,19 +72,19 @@
           <mxGeometry x="415" y="240" as="geometry" />
         </mxCell>
         <mxCell id="ebzaWmidBUEkUafb_fH5-33" value="שומר פניה חדשה במערכת" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="696.39" y="520.004705882353" width="108.61318024386775" height="49.77985294117647" as="geometry" />
+          <mxGeometry x="722.87" y="460.00470588235305" width="108.61318024386775" height="49.77985294117647" as="geometry" />
         </mxCell>
         <mxCell id="ebzaWmidBUEkUafb_fH5-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ebzaWmidBUEkUafb_fH5-29" target="ebzaWmidBUEkUafb_fH5-33">
           <mxGeometry x="415" y="240" as="geometry" />
         </mxCell>
         <mxCell id="ebzaWmidBUEkUafb_fH5-46" value="&lt;br&gt;שומר הערה חדשה&lt;br&gt;&amp;nbsp;במערכת" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="238.28999999999996" y="310" width="100.36" height="52.05" as="geometry" />
+          <mxGeometry x="727" y="393.12" width="100.36" height="52.05" as="geometry" />
         </mxCell>
         <mxCell id="ebzaWmidBUEkUafb_fH5-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ebzaWmidBUEkUafb_fH5-53" target="ebzaWmidBUEkUafb_fH5-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ebzaWmidBUEkUafb_fH5-53" value="צופה בפרטי פניה" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="269.99757365849035" y="449.99970588235294" width="126.71537695117904" height="63.356176470588245" as="geometry" />
+          <mxGeometry x="279.99757365849035" y="386.6397058823529" width="126.71537695117904" height="63.356176470588245" as="geometry" />
         </mxCell>
         <mxCell id="ebzaWmidBUEkUafb_fH5-55" value="מסמן פניה כסגורה" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="238.28757365849037" y="570.0029411764706" width="126.71537695117904" height="63.356176470588245" as="geometry" />
@@ -123,6 +103,24 @@
             <mxPoint x="310" y="640" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ebzaWmidBUEkUafb_fH5-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ebzaWmidBUEkUafb_fH5-80" target="ebzaWmidBUEkUafb_fH5-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebzaWmidBUEkUafb_fH5-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ebzaWmidBUEkUafb_fH5-80" target="ebzaWmidBUEkUafb_fH5-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebzaWmidBUEkUafb_fH5-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ebzaWmidBUEkUafb_fH5-80" target="ebzaWmidBUEkUafb_fH5-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ebzaWmidBUEkUafb_fH5-80" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;צופה בפרטי פניה&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebzaWmidBUEkUafb_fH5-83" value="משנה פרטי&lt;br&gt;&amp;nbsp;עובד אחראי" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ebzaWmidBUEkUafb_fH5-85" value="&lt;br&gt;מסמן פניה כסגורה" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="662.5" y="250" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
