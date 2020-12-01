@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2020-12-01T09:18:33.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" version="13.10.4" etag="LKU4NnnbgyRudo5g7gJS" type="github"><diagram id="NUJG5CBI-Nda2BXjzb5g">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-01T09:20:40.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="Qmclo4DubYvXkVJtsyyS" version="13.10.4" type="github">
+  <diagram id="NUJG5CBI-Nda2BXjzb5g" name="Page-1">
+    <mxGraphModel dx="868" dy="393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KoQbItj2LXc46J0MvZnx-1" value="מסופון נייד" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KoQbItj2LXc46J0MvZnx-2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="KoQbItj2LXc46J0MvZnx-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="120" as="sourcePoint" />
+            <mxPoint x="440" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoQbItj2LXc46J0MvZnx-3" value="מסך כניסה למערכת" style="shape=umlBoundary;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KoQbItj2LXc46J0MvZnx-4" value="" style="endArrow=classic;html=1;exitX=0.58;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.57;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KoQbItj2LXc46J0MvZnx-3" target="KoQbItj2LXc46J0MvZnx-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="210" as="sourcePoint" />
+            <mxPoint x="101" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoQbItj2LXc46J0MvZnx-5" value="Navigate" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="KoQbItj2LXc46J0MvZnx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KoQbItj2LXc46J0MvZnx-6" value="מסך איפוס סיסמא" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="60" y="252" width="70" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="KoQbItj2LXc46J0MvZnx-7" value="Navigate" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="218.9647280531641" y="110.00137906088129" as="geometry" />
+        </mxCell>
+        <mxCell id="KoQbItj2LXc46J0MvZnx-8" value="מסך הוספת מיקום של מוצר" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="240" y="137.02" width="80" height="62.98" as="geometry" />
+        </mxCell>
+        <mxCell id="KoQbItj2LXc46J0MvZnx-9" value="" style="endArrow=classic;html=1;exitX=1.02;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KoQbItj2LXc46J0MvZnx-3" target="KoQbItj2LXc46J0MvZnx-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="108" y="210" as="sourcePoint" />
+            <mxPoint x="109.89999999999998" y="259.20000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoQbItj2LXc46J0MvZnx-10" value="Navigate" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="KoQbItj2LXc46J0MvZnx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
