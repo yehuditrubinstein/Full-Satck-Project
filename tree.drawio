@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T22:16:02.350Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="0B-adMPHRXVvv_w9m97W" version="14.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T22:21:44.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="BdkCrRVACg0Cr0-jXcro" version="14.2.2" type="github">
   <diagram name="Page-1" id="2c0d36ab-eaac-3732-788b-9136903baeff">
     <mxGraphModel dx="723" dy="328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -70,6 +70,23 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1174.9999999999995" y="790" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="m5cj2oNC6-9tfZDsCWIE-192" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m5cj2oNC6-9tfZDsCWIE-198" target="m5cj2oNC6-9tfZDsCWIE-191">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1119.9999999999995" y="730" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5cj2oNC6-9tfZDsCWIE-194" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.913;exitY=0.061;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="m5cj2oNC6-9tfZDsCWIE-198" target="m5cj2oNC6-9tfZDsCWIE-193">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1251" y="766" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1300" y="774" />
+              <mxPoint x="1300" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5cj2oNC6-9tfZDsCWIE-202" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m5cj2oNC6-9tfZDsCWIE-126" target="m5cj2oNC6-9tfZDsCWIE-198">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m5cj2oNC6-9tfZDsCWIE-126" value="בוחר הזמנה" style="whiteSpace=wrap;html=1;rounded=1;fontFamily=Tahoma;fontSize=14;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=#23445D;" vertex="1" parent="1">
           <mxGeometry x="1114.9999999999998" y="650" width="120" height="60" as="geometry" />
@@ -157,6 +174,27 @@
               <mxPoint x="850" y="735" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="m5cj2oNC6-9tfZDsCWIE-191" value="שולח הזמנה ללקוח" style="whiteSpace=wrap;html=1;rounded=1;fontFamily=Tahoma;fontSize=14;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=#23445D;" vertex="1" parent="1">
+          <mxGeometry x="952.4999999999998" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m5cj2oNC6-9tfZDsCWIE-193" value="מדפיס הזמנה" style="whiteSpace=wrap;html=1;rounded=1;fontFamily=Tahoma;fontSize=14;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=#23445D;" vertex="1" parent="1">
+          <mxGeometry x="1314.9999999999998" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m5cj2oNC6-9tfZDsCWIE-196" value="מייצא הזמנה Pdfל" style="whiteSpace=wrap;html=1;rounded=1;fontFamily=Tahoma;fontSize=14;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=#23445D;" vertex="1" parent="1">
+          <mxGeometry x="1309.9999999999998" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m5cj2oNC6-9tfZDsCWIE-200" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m5cj2oNC6-9tfZDsCWIE-198" target="m5cj2oNC6-9tfZDsCWIE-199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m5cj2oNC6-9tfZDsCWIE-201" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m5cj2oNC6-9tfZDsCWIE-198" target="m5cj2oNC6-9tfZDsCWIE-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m5cj2oNC6-9tfZDsCWIE-198" value="צופה בפרטי הזמנה" style="whiteSpace=wrap;html=1;rounded=1;fontFamily=Tahoma;fontSize=14;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=#23445D;" vertex="1" parent="1">
+          <mxGeometry x="1114.9999999999998" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m5cj2oNC6-9tfZDsCWIE-199" value="מוסיף זיכוי מוצר" style="whiteSpace=wrap;html=1;rounded=1;fontFamily=Tahoma;fontSize=14;fontColor=#FFFFFF;fontStyle=1;strokeColor=none;fillColor=#23445D;" vertex="1" parent="1">
+          <mxGeometry x="1114.9999999999998" y="880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
