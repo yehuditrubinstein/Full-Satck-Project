@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-04T12:32:27.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="hIiAzU_Pj9sIgcrhlCdF" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-04T12:39:23.966Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="-EapmnmbdDaCFEXdfYBU" version="14.2.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -7,24 +7,30 @@
         <mxCell id="aVnYMngcXuuk72Z8o889-0" value="אפליקציה ניידת" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="40" width="150" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="aVnYMngcXuuk72Z8o889-1" value="סריקת ברקוד המוצר" style="html=1;" parent="aVnYMngcXuuk72Z8o889-0" vertex="1">
+        <mxCell id="aVnYMngcXuuk72Z8o889-1" value="מלאי" style="html=1;" parent="aVnYMngcXuuk72Z8o889-0" vertex="1">
           <mxGeometry width="110" height="30" relative="1" as="geometry">
             <mxPoint x="20" y="40" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aVnYMngcXuuk72Z8o889-3" value="הכנסת מיקום למערכת" style="html=1;" parent="aVnYMngcXuuk72Z8o889-0" vertex="1">
+        <mxCell id="aVnYMngcXuuk72Z8o889-3" value="הזמנות" style="html=1;" parent="aVnYMngcXuuk72Z8o889-0" vertex="1">
           <mxGeometry x="20" y="90" width="110" height="21.666666666666668" as="geometry" />
         </mxCell>
-        <mxCell id="aVnYMngcXuuk72Z8o889-4" value="טיפול במוצרים" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="40" y="240" width="150" height="140" as="geometry" />
+        <mxCell id="jy6YPR81W2gWsYZMOIAQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aVnYMngcXuuk72Z8o889-4" target="aVnYMngcXuuk72Z8o889-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aVnYMngcXuuk72Z8o889-5" value="הכנסת פריט חדש" style="html=1;" parent="aVnYMngcXuuk72Z8o889-4" vertex="1">
+        <mxCell id="aVnYMngcXuuk72Z8o889-4" value="מוצרים" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="40" y="240" width="150" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="aVnYMngcXuuk72Z8o889-5" value="מוצרים" style="html=1;" parent="aVnYMngcXuuk72Z8o889-4" vertex="1">
           <mxGeometry width="110" height="30" relative="1" as="geometry">
             <mxPoint x="20" y="40" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aVnYMngcXuuk72Z8o889-7" value="שינוי פרטי פריט" style="html=1;" parent="aVnYMngcXuuk72Z8o889-4" vertex="1">
-          <mxGeometry x="20" y="90" width="110" height="23.333333333333332" as="geometry" />
+        <mxCell id="aVnYMngcXuuk72Z8o889-7" value="מאפייני מוצר" style="html=1;" parent="aVnYMngcXuuk72Z8o889-4" vertex="1">
+          <mxGeometry x="20" y="79.99857142857141" width="110" height="26.666666666666664" as="geometry" />
+        </mxCell>
+        <mxCell id="jy6YPR81W2gWsYZMOIAQ-12" value="מיקומי מוצר" style="html=1;" vertex="1" parent="aVnYMngcXuuk72Z8o889-4">
+          <mxGeometry x="20" y="119.99857142857138" width="110" height="26.666666666666664" as="geometry" />
         </mxCell>
         <mxCell id="aVnYMngcXuuk72Z8o889-8" value="מלאי" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="640" y="40" width="150" height="140" as="geometry" />
@@ -36,6 +42,9 @@
         </mxCell>
         <mxCell id="aVnYMngcXuuk72Z8o889-11" value="צפייה במלאי" style="html=1;" parent="aVnYMngcXuuk72Z8o889-8" vertex="1">
           <mxGeometry x="20" y="80.00222222222223" width="110" height="23.333333333333332" as="geometry" />
+        </mxCell>
+        <mxCell id="jy6YPR81W2gWsYZMOIAQ-11" value="מיקומים" style="html=1;" vertex="1" parent="aVnYMngcXuuk72Z8o889-8">
+          <mxGeometry x="20" y="110.00000000000003" width="110" height="23.333333333333332" as="geometry" />
         </mxCell>
         <mxCell id="aVnYMngcXuuk72Z8o889-12" value="משימות" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="640" y="240" width="150" height="180" as="geometry" />
@@ -77,10 +86,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aVnYMngcXuuk72Z8o889-22" value="שירותים כלליים" style="html=1;" parent="aVnYMngcXuuk72Z8o889-20" vertex="1">
-          <mxGeometry x="20" y="130.00428571428571" width="110" height="38.57142857142858" as="geometry" />
+          <mxGeometry x="20" y="120.00428571428571" width="110" height="38.57142857142858" as="geometry" />
         </mxCell>
         <mxCell id="aVnYMngcXuuk72Z8o889-23" value="הטבלאות במערכת" style="html=1;" parent="aVnYMngcXuuk72Z8o889-20" vertex="1">
-          <mxGeometry x="20" y="90" width="110" height="30" as="geometry" />
+          <mxGeometry x="20" y="80" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aVnYMngcXuuk72Z8o889-25" value="לקוחות" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="250" y="465" width="150" height="180" as="geometry" />
@@ -97,15 +106,18 @@
           <mxGeometry x="20" y="85" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aVnYMngcXuuk72Z8o889-29" value="דוחות" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="339" y="40" width="150" height="140" as="geometry" />
+          <mxGeometry x="339" y="40" width="150" height="160" as="geometry" />
         </mxCell>
         <mxCell id="aVnYMngcXuuk72Z8o889-30" value="דוח מלאי" style="html=1;" parent="aVnYMngcXuuk72Z8o889-29" vertex="1">
           <mxGeometry width="110" height="30" relative="1" as="geometry">
             <mxPoint x="20" y="40" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aVnYMngcXuuk72Z8o889-41" value="דוח פניות לקוחות" style="html=1;" parent="aVnYMngcXuuk72Z8o889-29" vertex="1">
-          <mxGeometry x="20" y="90.00125" width="110" height="26.25" as="geometry" />
+        <mxCell id="aVnYMngcXuuk72Z8o889-41" value="דוח מוצרים" style="html=1;" parent="aVnYMngcXuuk72Z8o889-29" vertex="1">
+          <mxGeometry x="20" y="80" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jy6YPR81W2gWsYZMOIAQ-9" value="דוח תשלומים" style="html=1;" vertex="1" parent="aVnYMngcXuuk72Z8o889-29">
+          <mxGeometry x="20" y="121.43125" width="110" height="26.25" as="geometry" />
         </mxCell>
         <mxCell id="aVnYMngcXuuk72Z8o889-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aVnYMngcXuuk72Z8o889-0" target="aVnYMngcXuuk72Z8o889-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -125,7 +137,7 @@
         </mxCell>
         <mxCell id="aVnYMngcXuuk72Z8o889-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aVnYMngcXuuk72Z8o889-42" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="190" as="targetPoint" />
+            <mxPoint x="410" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aVnYMngcXuuk72Z8o889-42" value="המערכת" style="text;align=center;verticalAlign=middle;dashed=0;fillColor=#ffffff;strokeColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
